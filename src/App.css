@@ -19,10 +19,14 @@
 .input-container{
   position: relative;
   width: 80vw;
-  display: block;
+  display: flex;
   align-items: center;
   margin: 2em;
   margin-bottom: 5em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 1em;
+  row-gap: 1em;
 }
 
 .rules-container{
@@ -31,7 +35,8 @@
 }
 
 .guess-input{
-  width: 80%;
+  min-width: 80%;
+  max-width: 100%;
   height: 100%;
 }
 

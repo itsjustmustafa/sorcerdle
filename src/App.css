@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.input-container{
+  position: relative;
+  width: 80vw;
+  display: block;
+  align-items: center;
+  margin: 2em;
+  margin-bottom: 5em;
+}
+
+.rules-container{
+  display: grid;
+  grid-auto-flow: column; 
+}
+
+.guess-input{
+  width: 80%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .table-container {
+    /* background-color: blueviolet; */
+    overflow-x: scroll;
+    max-width: 100vw;
+    /* width: 100%; */
+    /* display: block; */
+  }
+}
+
+.guesses-table{
+  width: 100%;
+  min-width: 1600px;
+  table-layout: fixed;
+}
+
+.result-right{
+  background-color: rgba(35, 184, 45, 0.5);
+}
+
+.result-wrong{
+  background-color: rgba(184, 35, 35, 0.5);
+}
+
+.result-partial{
+  background-color: rgba(236, 239, 46, 0.5);
+}
+
+.guesses-table td{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  min-width: 150px;  
+}
+
+.threslogo {
+  width: 2em;
+  -webkit-filter: drop-shadow(0px 0px 2px #000);
+  filter: drop-shadow(0px 0px 2px #000);
+}
+
+.win-container {
+  display: flex;
+  column-gap: 1vw;
+}
+/* .guesses-table td{
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.5);
+  background-image: url(https://duckduckgo.com/assets/logo_header.v109.svg) ;
+} */

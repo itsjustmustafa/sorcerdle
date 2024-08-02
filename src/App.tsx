@@ -167,6 +167,7 @@ function App() {
   const [gameWon, setGameWon] = useState(false);
   const [hintRevealed, setHintRevealed] = useState(false);
   const [todayDate, setTodayDate] = useState("");
+  const [shared, setShared] = useState(false);
 
   function RulesText(){
     
@@ -359,6 +360,7 @@ function App() {
   }
 
   const copyShareToClipboard = () => {
+    setShared(true);
     const link = "https://sorcerdle.com/";
     const emojiMatrix = guesses.map( (guess) => {
     return guess.resultStyles.map(
@@ -383,7 +385,7 @@ function App() {
   const winDisplay = (
     <span className='win-container'>
       <p>🥳🎉You Won!!!💯🎊</p>
-      <button onClick={copyShareToClipboard}>Share</button>
+      <button onClick={copyShareToClipboard}>{shared? "Copied": "Share"}</button>
     </span>
     );
 

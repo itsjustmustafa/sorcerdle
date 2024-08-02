@@ -152,11 +152,20 @@ const thresholdAsList = (thresholds: Thresholds) : string[] => {
     .concat(Array(thresholds.water).fill("W"))));
 }
 
-const thresCharToLogoMap = {
-  "A": airThresLogo,
-  "E": earthThresLogo,
-  "F": fireThresLogo,
-  "W": waterThresLogo,
+const thresCharToLogoMap =  (char: string): JSX.Element => {
+  
+  switch (char){
+    case "A":
+      return airThresLogo;
+    case "E":
+      return earthThresLogo;
+    case "F":
+      return fireThresLogo;   
+    case "W":
+      return waterThresLogo;
+    default:
+      return <></>;
+  }
 }
 
 function App() {
@@ -317,7 +326,7 @@ function App() {
           }
         }
         currentGuess.resultTexts.push(
-          <>{guessedList.map((element) => thresCharToLogoMap[element])}</>
+          <>{guessedList.map((element) => thresCharToLogoMap(element))}</>
         );
         currentGuess.resultStyles.push(style);
       }else if (isRarity(guessedValue) && isRarity(targetValue)){

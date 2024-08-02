@@ -366,7 +366,7 @@ function App() {
   }
 
   const copyShareToClipboard = () => {
-    const link = "www.google.com";
+    const link = "https://sorcerdle.com/";
     const emojiMatrix = guesses.map( (guess) => {
     return guess.resultStyles.map(
       (style) => {

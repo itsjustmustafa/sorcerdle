@@ -86,10 +86,6 @@ const cardsToArray = (card: Card): any[] =>{
     card.subtype === "" ? [card.type] : [card.type, card.subtype],
     getListOfKeywords(card),
     card.thresholds
-    // card.thresholds.air,
-    // card.thresholds.earth,
-    // card.thresholds.fire,
-    // card.thresholds.water
    ];
 }
 
@@ -101,10 +97,7 @@ const attributeDisplayNames = [
   "Life",
   "Type(s)",
   "Keywords",
-  // "Air Thres.",
-  // "Earth Thres.",
-  // "Fire Thres.",
-  "Water Thres.",
+  "Threshold",
 ]
 
 const cardKeywords = [
@@ -396,7 +389,7 @@ function App() {
 
   return (
     <div className='game'>
-      <h1>Sorcerdle</h1>
+      <h1>Sorcerdle!</h1>
       <form className='input-container'>
       <input
         className='guess-input'

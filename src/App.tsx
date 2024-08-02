@@ -1,13 +1,12 @@
-import React, { ChangeEvent, KeyboardEvent, ReactElement, useEffect, useState } from 'react'
+import { ChangeEvent, ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'
 import fireThresLogoFile from './data/firethres.png'
 import waterThresLogoFile from './data/waterthres.png'
 import './App.css'
-import { jsx } from 'react/jsx-runtime'
 
-const startsWith = (a:string, b:string) => a.toLowerCase().startsWith(b.toLowerCase());
+// const startsWith = (a:string, b:string) => a.toLowerCase().startsWith(b.toLowerCase());
 const compareStrings = (a:string, b:string) => a.toLowerCase() === b.toLowerCase();
 const substring = (a:string, b:string) => a.toLowerCase().includes(b.toLowerCase());
 
@@ -134,11 +133,6 @@ interface Guess {
   resultTexts: (string | ReactElement)[],
   resultStyles: string[]
 }
-
-interface ThresholdsDisplayProp {
-  thresholds: Thresholds
-}
-
 
 const fireThresLogo = (<img src={fireThresLogoFile} className='threslogo'/>);
 const earthThresLogo = (<img src={earthThresLogoFile} className='threslogo'/>);
@@ -414,7 +408,7 @@ function App() {
       <button onClick={handleSubmit}>Submit</button>
       {suggestions.length > 0 && (
         <datalist id='suggestions'>
-          {suggestions.map((suggestions, index) => (
+          {suggestions.map((suggestions) => (
             <option value={suggestions.card_name}>{suggestions.card_name}</option>
           ))}
         </datalist>
@@ -436,7 +430,7 @@ function App() {
         <tbody>
         {guesses.map( (guess, index) => (
           <tr key={index}>
-          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index) => (
+          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair) => (
             <td className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
           ))}
           </tr>

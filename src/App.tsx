@@ -1,4 +1,4 @@
-import { ChangeEvent, ReactElement, useEffect, useState } from 'react'
+import { ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'

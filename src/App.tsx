@@ -399,7 +399,7 @@ function App() {
   return (
     <div className='game'>
       <h1>Sorcerdle!</h1>
-      <form className='input-container'>
+      <span className='input-container'>
       
       <Select className='guess-input' 
         options={suggestions.map((suggestion) => {
@@ -434,7 +434,7 @@ function App() {
         </table>
       )*/}
       <button onClick={handleSubmit}>Submit{debugText}</button>
-      </form>
+      </span>
       <span className='rules-container'>
         <RulesText/>
       </span>

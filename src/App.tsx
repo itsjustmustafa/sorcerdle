@@ -167,6 +167,8 @@ function App() {
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
 
+  const [bgcolour, setBgcolour] = useState("inherit");
+
   function RulesText(){
     
     const revealHint = () => {
@@ -229,9 +231,11 @@ function App() {
 
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
+
     console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
     // console.log(guessedCountry);
+    setBgcolour("#FFAABB");
     if(guessedCard === undefined){
       return;
     }
@@ -392,7 +396,7 @@ function App() {
     );
 
   return (
-    <div className='game'>
+    <div className='game' style={{'backgroundColor':bgcolour}}>
       <h1>Sorcerdle!</h1>
       <form className='input-container'>
       

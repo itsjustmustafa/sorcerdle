@@ -167,7 +167,7 @@ function App() {
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
 
-  const [debugText, setDebugText] = useState("");
+  // const [debugText, setDebugText] = useState("");
 
   function RulesText(){
     
@@ -216,7 +216,7 @@ function App() {
     if(!showingSuggestionMenu){
       return;
     }
-    setDebugText("hgic " + value)
+    // setDebugText("hgic " + value)
     
     if(value !== ""){
       setCurrentAnswer(value);
@@ -235,7 +235,7 @@ function App() {
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
 
-    setDebugText("Subitted: " + currentAnswer);
+    // setDebugText("Subitted: " + currentAnswer);
 
     console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));

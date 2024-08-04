@@ -1,10 +1,11 @@
-import { ChangeEvent, ReactElement, useEffect, useState } from 'react'
+import { ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'
 import fireThresLogoFile from './data/firethres.png'
 import waterThresLogoFile from './data/waterthres.png'
 import './App.css'
+import Select from 'react-select';
 
 // const startsWith = (a:string, b:string) => a.toLowerCase().startsWith(b.toLowerCase());
 const compareStrings = (a:string, b:string) => a.toLowerCase() === b.toLowerCase();
@@ -127,10 +128,6 @@ interface Guess {
   resultStyles: string[]
 }
 
-const fireThresLogo = (<img src={fireThresLogoFile} className='threslogo'/>);
-const earthThresLogo = (<img src={earthThresLogoFile} className='threslogo'/>);
-const airThresLogo = (<img src={airThresLogoFile} className='threslogo'/>);
-const waterThresLogo = (<img src={waterThresLogoFile} className='threslogo'/>);
 
 const thresholdAsList = (thresholds: Thresholds) : string[] => {
   return Array(thresholds.air).fill("A")
@@ -139,17 +136,17 @@ const thresholdAsList = (thresholds: Thresholds) : string[] => {
     .concat(Array(thresholds.water).fill("W"))));
 }
 
-const thresCharToLogoMap =  (char: string): JSX.Element => {
-  
+const thresCharToLogoMap =  (char: string, index: number): JSX.Element => {
+
   switch (char){
     case "A":
-      return airThresLogo;
+      return (<img key={index} src={airThresLogoFile} className='threslogo' />);
     case "E":
-      return earthThresLogo;
+      return (<img key={index} src={earthThresLogoFile} className='threslogo' />);
     case "F":
-      return fireThresLogo;   
+      return (<img key={index} src={fireThresLogoFile} className='threslogo' />);   
     case "W":
-      return waterThresLogo;
+      return (<img key={index} src={waterThresLogoFile} className='threslogo' />);
     default:
       return <></>;
   }
@@ -167,7 +164,10 @@ function App() {
   const [gameWon, setGameWon] = useState(false);
   const [hintRevealed, setHintRevealed] = useState(false);
   const [todayDate, setTodayDate] = useState("");
+  const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
+
+  // const [debugText, setDebugText] = useState("");
 
   function RulesText(){
     
@@ -208,17 +208,23 @@ function App() {
   }, []);
   
   useEffect(() => {
-
+    console.log("ANSWER CHANGED!!!");
+    console.log("->> " + currentAnswer);
   }, [currentAnswer]);
   
-  const handleGuessInputChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-    setCurrentAnswer(value);
+  const handleGuessInputChange = (value: string) => {
+    if(!showingSuggestionMenu){
+      return;
+    }
+    // setDebugText("hgic " + value)
     
-    if (value.length >= 3) {
+    if(value !== ""){
+      setCurrentAnswer(value);
+    }
+    
+    if (value.length > 0) {
       const filteredSuggestions = cardsData
-        .filter(card => substring(card.card_name, value))
-        .slice(0, 10);
+        .filter(card => substring(card.card_name, value));
       setSuggestions(filteredSuggestions);
     }else{
       setSuggestions([]);
@@ -228,6 +234,10 @@ function App() {
 
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
+
+    // setDebugText("Subitted: " + currentAnswer);
+
+    console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
     // console.log(guessedCountry);
     if(guessedCard === undefined){
@@ -314,7 +324,7 @@ function App() {
           }
         }
         currentGuess.resultTexts.push(
-          <>{guessedList.map((element) => thresCharToLogoMap(element))}</>
+          <>{guessedList.map((element, index) => thresCharToLogoMap(element, index))}</>
         );
         currentGuess.resultStyles.push(style);
       }else if (isRarity(guessedValue) && isRarity(targetValue)){
@@ -390,26 +400,48 @@ function App() {
     );
 
   return (
+    <>
+    <a id='github_link' href="https://github.com/itsjustmustafa/sorcerdle" target='_blank'>Source</a>
+    <a id='linkedin_link' href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a>
     <div className='game'>
       <h1>Sorcerdle!</h1>
-      <form className='input-container'>
-      <input
+      <span className='input-container'>
+      
+      <Select className='guess-input' 
+        options={suggestions.map((suggestion) => {
+          return {value: suggestion.card_name, label: suggestion.card_name}
+        })}
+        onInputChange={handleGuessInputChange}
+        onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
+        onMenuOpen={() => setShowingSuggestionMenu(true)}
+        onMenuClose={() => setShowingSuggestionMenu(false)}
+        
+        // inputValue={currentAnswer}
+      />
+      
+      {/* <input
         className='guess-input'
         type="text"
         value={currentAnswer}
         onChange={handleGuessInputChange}
         list='suggestions'
-        />
-      <button onClick={handleSubmit}>Submit</button>
-      {suggestions.length > 0 && (
+        /> */}
+      {/* {suggestions.length > 0 && (
         <datalist id='suggestions'>
-          {suggestions.map((suggestions) => (
-            <option value={suggestions.card_name}>{suggestions.card_name}</option>
+        {suggestions.map((suggestions) => (
+          <option value={suggestions.card_name}>{suggestions.card_name}</option>
           ))}
-        </datalist>
-      )}
-      </form>
-      {/* <p>{rulesTextHint()}</p> */}
+          </datalist>
+          )} */}
+      {/*suggestions.length > 0 && (
+        <table className='suggestions-container'>
+          {suggestions.map((suggestion) => (
+            <tr>{suggestion.card_name}</tr>
+          ))}
+        </table>
+      )*/}
+      <button onClick={handleSubmit}>Submit</button>
+      </span>
       <span className='rules-container'>
         <RulesText/>
       </span>
@@ -425,8 +457,8 @@ function App() {
         <tbody>
         {guesses.map( (guess, index) => (
           <tr key={index}>
-          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair) => (
-            <td className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
+          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index) => (
+            <td key={index} className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
           ))}
           </tr>
         ))}
@@ -434,6 +466,7 @@ function App() {
       </table>
       </div>
     </div>
+    </>
   );
 };
 

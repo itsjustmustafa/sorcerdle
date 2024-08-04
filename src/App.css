@@ -21,8 +21,6 @@
   width: 80vw;
   display: flex;
   align-items: center;
-  margin: 2em;
-  margin-bottom: 5em;
   flex-wrap: wrap;
   justify-content: space-evenly;
   column-gap: 1em;
@@ -31,13 +29,22 @@
 
 .rules-container{
   display: grid;
-  grid-auto-flow: column; 
+  grid-auto-flow: column;
+  margin: 1em; 
 }
 
-.guess-input{
+.guess-container{
   min-width: 80%;
   max-width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.guess-input{
+  width:80%;
+  color: #000;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -83,6 +90,41 @@
 .win-container {
   display: flex;
   column-gap: 1vw;
+}
+
+.suggestions-container{
+  position:absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: left;
+  border: 1px solid #ccc;
+  max-height: 5em;
+  overflow-y: auto;
+}
+
+a {
+  color: #888;
+  text-decoration: underline;
+}
+
+#linkedin_link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* font-size: 25px; */
+  margin: 0.25em;
+
+}
+
+#github_link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* font-size: 25px; */
+  margin: 0.25em;
 }
 /* .guesses-table td{
   background-size: cover;

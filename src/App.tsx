@@ -167,7 +167,7 @@ function App() {
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
 
-  const [bgcolour, setBgcolour] = useState("inherit");
+  const [debugText, setDebugText] = useState("");
 
   function RulesText(){
     
@@ -232,10 +232,11 @@ function App() {
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
 
+    setDebugText(currentAnswer);
+
     console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
     // console.log(guessedCountry);
-    setBgcolour("#FFAABB");
     if(guessedCard === undefined){
       return;
     }
@@ -396,7 +397,7 @@ function App() {
     );
 
   return (
-    <div className='game' style={{'backgroundColor':bgcolour}}>
+    <div className='game'>
       <h1>Sorcerdle!</h1>
       <form className='input-container'>
       
@@ -432,7 +433,7 @@ function App() {
           ))}
         </table>
       )*/}
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit}>Submit{debugText}</button>
       </form>
       <span className='rules-container'>
         <RulesText/>

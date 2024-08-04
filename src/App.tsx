@@ -216,6 +216,7 @@ function App() {
     if(!showingSuggestionMenu){
       return;
     }
+    setDebugText(value)
     setCurrentAnswer(value);
     
     if (value.length >= 3) {
@@ -232,7 +233,7 @@ function App() {
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
 
-    setDebugText(currentAnswer);
+    setDebugText("Subitted: " + currentAnswer);
 
     console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
@@ -409,6 +410,7 @@ function App() {
         onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? newValue.value : "") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
+        
         // inputValue={currentAnswer}
       />
       

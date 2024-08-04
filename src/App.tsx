@@ -405,7 +405,7 @@ function App() {
           return {value: suggestion.card_name, label: suggestion.card_name}
         })}
         onInputChange={handleGuessInputChange}
-        onChange={(newValue) =>  setCurrentAnswer(newValue ? newValue.value : "")}
+        onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? newValue.value : "") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
         // inputValue={currentAnswer}

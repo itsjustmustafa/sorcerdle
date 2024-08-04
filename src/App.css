@@ -105,13 +105,17 @@
   overflow-y: auto;
 }
 
+a {
+  color: #888;
+  text-decoration: underline;
+}
+
 #linkedin_link {
   position: fixed;
   top: 0;
   right: 0;
   /* font-size: 25px; */
   margin: 0.25em;
-  text-decoration: none;
 
 }
 
@@ -121,7 +125,6 @@
   left: 0;
   /* font-size: 25px; */
   margin: 0.25em;
-  text-decoration: none;
 }
 /* .guesses-table td{
   background-size: cover;

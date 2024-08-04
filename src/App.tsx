@@ -216,7 +216,7 @@ function App() {
     if(!showingSuggestionMenu){
       return;
     }
-    setDebugText(value)
+    setDebugText("hgic " + value)
     setCurrentAnswer(value);
     
     if (value.length >= 3) {
@@ -407,7 +407,7 @@ function App() {
           return {value: suggestion.card_name, label: suggestion.card_name}
         })}
         onInputChange={handleGuessInputChange}
-        onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? newValue.value : "uhoh") : null}
+        onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
         

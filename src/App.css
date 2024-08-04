@@ -29,7 +29,8 @@
 
 .rules-container{
   display: grid;
-  grid-auto-flow: column; 
+  grid-auto-flow: column;
+  margin: 1em; 
 }
 
 .guess-container{
@@ -102,6 +103,25 @@
   border: 1px solid #ccc;
   max-height: 5em;
   overflow-y: auto;
+}
+
+#linkedin_link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* font-size: 25px; */
+  margin: 0.25em;
+  text-decoration: none;
+
+}
+
+#github_link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* font-size: 25px; */
+  margin: 0.25em;
+  text-decoration: none;
 }
 /* .guesses-table td{
   background-size: cover;

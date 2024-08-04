@@ -400,8 +400,11 @@ function App() {
     );
 
   return (
+    <>
+    <a id='github_link' href="https://github.com/itsjustmustafa/sorcerdle" target='_blank'>Source</a>
+    <a id='linkedin_link' href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a>
     <div className='game'>
-      <h1>Sorcerdle! testing: 128</h1>
+      <h1>Sorcerdle!</h1>
       <span className='input-container'>
       
       <Select className='guess-input' 
@@ -463,6 +466,7 @@ function App() {
       </table>
       </div>
     </div>
+    </>
   );
 };
 

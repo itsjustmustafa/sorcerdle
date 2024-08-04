@@ -218,16 +218,13 @@ function App() {
     }
     setDebugText("hgic " + value)
     
-    if(value === ""){
-      return;
+    if(value !== ""){
+      setCurrentAnswer(value);
     }
-
-    setCurrentAnswer(value);
     
-    if (value.length >= 3) {
+    if (value.length > 0) {
       const filteredSuggestions = cardsData
-        .filter(card => substring(card.card_name, value))
-        .slice(0, 10);
+        .filter(card => substring(card.card_name, value));
       setSuggestions(filteredSuggestions);
     }else{
       setSuggestions([]);
@@ -404,7 +401,7 @@ function App() {
 
   return (
     <div className='game'>
-      <h1>Sorcerdle! testing: 127{currentAnswer}</h1>
+      <h1>Sorcerdle! testing: 128</h1>
       <span className='input-container'>
       
       <Select className='guess-input' 
@@ -440,7 +437,7 @@ function App() {
           ))}
         </table>
       )*/}
-      <button onClick={handleSubmit}>Submit{debugText}</button>
+      <button onClick={handleSubmit}>Submit</button>
       </span>
       <span className='rules-container'>
         <RulesText/>

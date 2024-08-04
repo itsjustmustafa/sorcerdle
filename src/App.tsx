@@ -217,6 +217,11 @@ function App() {
       return;
     }
     setDebugText("hgic " + value)
+    
+    if(value === ""){
+      return;
+    }
+
     setCurrentAnswer(value);
     
     if (value.length >= 3) {

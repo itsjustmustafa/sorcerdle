@@ -399,7 +399,7 @@ function App() {
 
   return (
     <div className='game'>
-      <h1>Sorcerdle! testing: 124{currentAnswer}</h1>
+      <h1>Sorcerdle! testing: 125{currentAnswer}</h1>
       <span className='input-container'>
       
       <Select className='guess-input' 

@@ -110,19 +110,22 @@ a {
   text-decoration: underline;
 }
 
-#linkedin_link {
-  position: fixed;
-  top: 0;
-  right: 0;
-  /* font-size: 25px; */
-  margin: 0.25em;
-
-}
-
-#github_link {
+#link-container {
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* font-size: 25px; */
+  margin: 0.25em;
+  
+}
+
+#help-link {
+  position: fixed;
+  top: 0;
+  right: 0;
   /* font-size: 25px; */
   margin: 0.25em;
 }

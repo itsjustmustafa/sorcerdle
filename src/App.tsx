@@ -401,8 +401,13 @@ function App() {
 
   return (
     <>
-    <a id='github_link' href="https://github.com/itsjustmustafa/sorcerdle" target='_blank'>Source</a>
-    <a id='linkedin_link' href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a>
+    <span id='link-container'>
+      <a href="https://github.com/itsjustmustafa/sorcerdle#sorcerdle" target='_blank'>Source / Bug report</a>
+      <a href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a>
+    </span>
+    <span id='help-link'>
+      <a href="https://github.com/itsjustmustafa/sorcerdle/#how-to-play" target="_blank">How To Play</a>
+    </span>
     <div className='game'>
       <h1>Sorcerdle!</h1>
       <span className='input-container'>

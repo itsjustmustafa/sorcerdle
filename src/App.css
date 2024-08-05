@@ -47,19 +47,19 @@
   color: #000;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1100px) {
   .table-container {
-    /* background-color: blueviolet; */
     overflow-x: scroll;
     max-width: 100vw;
-    /* width: 100%; */
-    /* display: block; */
+  }
+  .guesses-table{
+    font-size: 0.85em;
   }
 }
 
 .guesses-table{
   width: 100%;
-  min-width: 1600px;
+  min-width: 1100px;
   table-layout: fixed;
 }
 
@@ -78,7 +78,7 @@
 .guesses-table td{
   padding-top: 1vh;
   padding-bottom: 1vh;
-  min-width: 150px;  
+  min-width: 150px;
 }
 
 .threslogo {
@@ -129,10 +129,3 @@ a {
   /* font-size: 25px; */
   margin: 0.25em;
 }
-/* .guesses-table td{
-  background-size: cover;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-color: rgba(255, 0, 0, 0.5);
-  background-image: url(https://duckduckgo.com/assets/logo_header.v109.svg) ;
-} */

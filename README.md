@@ -30,3 +30,6 @@ We see the following (going in order of the attributes):
 Comparing it to the target card: *Unland Angler*, we see that this is consistent: It is Elite, has no Life stat, and it is a Minion but not a Mortal.
 <!-- ![Unland Angler](unland_angler.png) -->
 <img src="unland_angler.png" alt="Unland Angler" style="width:200px"/>
+
+The full list of Keywords is as follows:
+*Airborne, Burrow, Genesis, Charge, Immobile, Disable, Lethal, Movement, Ranged, Spellcaster, Stealth, Submerge, Voidwalk, Landbound, Waterbound, Deathrite, Flood, Projectile*

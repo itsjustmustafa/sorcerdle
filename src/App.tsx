@@ -167,7 +167,6 @@ function App() {
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
 
-  // const [debugText, setDebugText] = useState("");
 
   function RulesText(){
     
@@ -208,15 +207,12 @@ function App() {
   }, []);
   
   useEffect(() => {
-    console.log("ANSWER CHANGED!!!");
-    console.log("->> " + currentAnswer);
   }, [currentAnswer]);
   
   const handleGuessInputChange = (value: string) => {
     if(!showingSuggestionMenu){
       return;
     }
-    // setDebugText("hgic " + value)
     
     if(value !== ""){
       setCurrentAnswer(value);
@@ -235,11 +231,7 @@ function App() {
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
 
-    // setDebugText("Subitted: " + currentAnswer);
-
-    console.log("HANDLEING SUBMIT!!!");
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
-    // console.log(guessedCountry);
     if(guessedCard === undefined){
       return;
     }
@@ -265,9 +257,7 @@ function App() {
       const guessedValue = valuePair[0];
       const targetValue = valuePair[1];
 
-      console.log(`${index} - ${guessedValue} vs ${targetValue}`)
       if(typeof guessedValue === 'number' && typeof targetValue === 'number'){
-        console.log("number - " + index)
         let emoji = "";
         let style = "right";
         if(guessedValue < targetValue){
@@ -328,9 +318,6 @@ function App() {
         );
         currentGuess.resultStyles.push(style);
       }else if (isRarity(guessedValue) && isRarity(targetValue)){
-        console.log("we have rarity!");
-        console.log(guessedValue);
-        console.log(targetValue);
         let style = "right";
         let emoji = "";
         if(guessedValue.rank < targetValue.rank){
@@ -388,8 +375,6 @@ function App() {
       }
     ).join("");
   }).join("\n");
-    console.log(guesses[0].resultStyles);
-    console.log(emojiMatrix);
     navigator.clipboard.writeText(`Sorcerdle - ${todayDate} (${guesses.length} Guesses${hintRevealed? " + Hint" : ""})\n${link}\n${emojiMatrix}`);
   };
   const winDisplay = (
@@ -420,31 +405,7 @@ function App() {
         onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
-        
-        // inputValue={currentAnswer}
       />
-      
-      {/* <input
-        className='guess-input'
-        type="text"
-        value={currentAnswer}
-        onChange={handleGuessInputChange}
-        list='suggestions'
-        /> */}
-      {/* {suggestions.length > 0 && (
-        <datalist id='suggestions'>
-        {suggestions.map((suggestions) => (
-          <option value={suggestions.card_name}>{suggestions.card_name}</option>
-          ))}
-          </datalist>
-          )} */}
-      {/*suggestions.length > 0 && (
-        <table className='suggestions-container'>
-          {suggestions.map((suggestion) => (
-            <tr>{suggestion.card_name}</tr>
-          ))}
-        </table>
-      )*/}
       <button onClick={handleSubmit}>Submit</button>
       </span>
       <span className='rules-container'>

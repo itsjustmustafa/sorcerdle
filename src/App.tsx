@@ -253,7 +253,7 @@ function App() {
   };
   
   const setGuessResults = (currentGuess: Guess, guessedCard: Card, targetCard: Card): void => {
-    zip(cardsToArray(guessedCard), cardsToArray(targetCard)).forEach((valuePair) => {
+    zip(cardsToArray(guessedCard), cardsToArray(targetCard)).forEach((valuePair, index) => {
       const guessedValue = valuePair[0];
       const targetValue = valuePair[1];
 

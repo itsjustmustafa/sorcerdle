@@ -1,5 +1,6 @@
 import { ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
+import cardsURLOverrides from './data/card_img_url_overrides.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'
 import fireThresLogoFile from './data/firethres.png'
@@ -166,6 +167,7 @@ function App() {
   const [todayDate, setTodayDate] = useState("");
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
+  const [previewedCardName, setPreviewedCardName] = useState("lol");
 
 
   function RulesText(){
@@ -204,6 +206,7 @@ function App() {
     setCardsData(cardsJson);
     setTargetCard(getDailyCard());
     setTodayDate(new Date().toDateString());
+    // console.log("refrehsing component!");
   }, []);
   
   useEffect(() => {
@@ -251,7 +254,7 @@ function App() {
     }
     setCurrentAnswer("");
   };
-  
+
   const setGuessResults = (currentGuess: Guess, guessedCard: Card, targetCard: Card): void => {
     zip(cardsToArray(guessedCard), cardsToArray(targetCard)).forEach((valuePair, index) => {
       const guessedValue = valuePair[0];
@@ -343,10 +346,30 @@ function App() {
         currentGuess.resultTexts.push(guessedValue);
         currentGuess.resultStyles.push("none");
       }
-    }
-    );
+    });
   }
 
+  const toPascalCase = (cardName: string) : string => {
+    return cardName
+      .split(' ') // Split by space
+      .map(word => {
+        word = word.replace(/[^\w-]/g, "");
+        if(word[0] === word[0].toUpperCase()){
+          word = word.toLowerCase();
+          word = word.replace(/^[a-z]/, char => char.toUpperCase());
+        }
+        return word;
+      })
+      .join(''); // Join the words back together
+  };
+
+  const getCardImageUrl = (cardName: string): string => {
+    const overrideURLs = cardsURLOverrides.find((override) => override.name === cardName);
+    if(overrideURLs !== undefined){
+      return overrideURLs.url;
+    }
+    return `https://carddig.com/cdn/shop/files/SorceryContestedRealmTCGNonFoilBeta${toPascalCase(cardName)}.webp`;
+  };
   const canRevealHint = () => guesses.length >= GUESSES_UNTIL_HINT;
   
   const rulesTextHint = (): string => {
@@ -423,8 +446,30 @@ function App() {
         <tbody>
         {guesses.map( (guess, index) => (
           <tr key={index}>
-          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index) => (
-            <td key={index} className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
+          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index:number) => (
+            <>
+            {index !== 0 && (
+              <td key={index} className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
+            )}
+            {index === 0 && (
+              <td
+                key={index}
+                className={`result-${textStylePair[1]}`}
+                onClick={() => setPreviewedCardName(guess.card.card_name === previewedCardName ? "" : guess.card.card_name)}
+              >
+                <span className='card-name-container'>{guess.card.card_name}<br/>
+                <span
+                  >
+                    {guess.card.card_name===previewedCardName && <u>Hide</u>}
+                    {guess.card.card_name!==previewedCardName && <u>Show</u>}
+              </span>
+              <div className={'card-image-popup' + (guess.card.type === "Site" ? " site-img" : "")}>
+                {guess.card.card_name == previewedCardName && <img src={getCardImageUrl(previewedCardName)} alt={previewedCardName}/>}
+              </div>
+            </span>
+              </td>
+            )}
+            </>
           ))}
           </tr>
         ))}
@@ -437,3 +482,4 @@ function App() {
 };
 
 export default App
+

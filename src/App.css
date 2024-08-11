@@ -55,6 +55,39 @@
   .guesses-table{
     font-size: 0.85em;
   }
+  .card-image-popup img{
+    width: 30em;
+    margin-top: -30em;
+  }
+  .card-image-popup.site-img img{
+    width: 25em;
+    margin-top: -26em;
+  }
+}
+@media only screen and (min-width: 1100px){
+   .card-image-popup img{
+    width: 40em;
+    margin-top: -40em;
+  }
+  .card-image-popup.site-img img{
+    width: 40em;
+    margin-top: -41em;
+  } 
+}
+@media only screen and (max-height: 1000px){
+   .card-image-popup img{
+    width: 30em;
+    margin-top: -30em;
+  }
+  .card-image-popup.site-img img{
+    width: 25em;
+    margin-top: -26em;
+  } 
+}
+@media only screen and (min-height: 1000px){
+  h1{
+    margin: 4em
+  }
 }
 
 .guesses-table{
@@ -117,7 +150,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* font-size: 25px; */
   margin: 0.25em;
   
 }
@@ -126,6 +158,32 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  /* font-size: 25px; */
   margin: 0.25em;
+}
+
+.card-name-container{
+  cursor: pointer;
+  position: relative;
+}
+
+.card-image-popup{
+  position:absolute;
+  top: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.result-wrong:hover .card-image-popup{
+  display: block;
+}
+
+.card-image-popup.site-img img{
+  clip-path: inset(29% 2% 3% 2%);
+}
+
+.card-image-popup img{
+  position: fixed;
+  clip-path: inset(2.5% 30% 5% 3.125%);
+  height: auto;
+  object-fit: cover;
 }

@@ -430,6 +430,7 @@ function App() {
         onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
+        isDisabled={gameWon}
       />
       <button onClick={handleSubmit}>Submit</button>
       </span>

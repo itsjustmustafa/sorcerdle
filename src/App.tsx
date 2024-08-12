@@ -1,6 +1,6 @@
 import { ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
-import cardsURLOverrides from './data/card_img_url_overrides.json'
+import cardImageUrls from './data/card_image_urls.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'
 import fireThresLogoFile from './data/firethres.png'
@@ -76,6 +76,24 @@ interface Card {
   attack: number,
   life: number,
   thresholds: Thresholds
+};
+
+const NONE_CARD: Card = {
+  card_name: '',
+  rarity: '',
+  type_text: '',
+  type: '',
+  subtype: '',
+  rules_text: '',
+  cost: 0,
+  attack: 0,
+  life: 0,
+  thresholds: {
+    air: 0,
+    earth: 0,
+    fire: 0,
+    water: 0
+  }
 };
 
 const cardsToArray = (card: Card): any[] =>{
@@ -167,7 +185,7 @@ function App() {
   const [todayDate, setTodayDate] = useState("");
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
-  const [previewedCardName, setPreviewedCardName] = useState("lol");
+  const [previewedCard, setPreviewedCard] = useState<Card>(NONE_CARD);
 
 
   function RulesText(){
@@ -349,26 +367,12 @@ function App() {
     });
   }
 
-  const toPascalCase = (cardName: string) : string => {
-    return cardName
-      .split(' ') // Split by space
-      .map(word => {
-        word = word.replace(/[^\w-]/g, "");
-        if(word[0] === word[0].toUpperCase()){
-          word = word.toLowerCase();
-          word = word.replace(/^[a-z]/, char => char.toUpperCase());
-        }
-        return word;
-      })
-      .join(''); // Join the words back together
-  };
-
   const getCardImageUrl = (cardName: string): string => {
-    const overrideURLs = cardsURLOverrides.find((override) => override.name === cardName);
-    if(overrideURLs !== undefined){
-      return overrideURLs.url;
+    const card_url = cardImageUrls.find((override) => override.name === cardName);
+    if(card_url !== undefined){
+      return card_url.url;
     }
-    return `https://carddig.com/cdn/shop/files/SorceryContestedRealmTCGNonFoilBeta${toPascalCase(cardName)}.webp`;
+    return "";
   };
   const canRevealHint = () => guesses.length >= GUESSES_UNTIL_HINT;
   
@@ -418,6 +422,18 @@ function App() {
     </span>
     <div className='game'>
       <h1>Sorcerdle!</h1>
+      <span
+        className='card_image_mobile_modal'
+      >
+        {previewedCard.card_name !== "" && (
+          <img
+            className={'card_image_mobile card-preview ' + (previewedCard.type === "Site" ? 'site-img' : 'nonsite-img')}
+            src={getCardImageUrl(previewedCard.card_name)}
+            alt={previewedCard.card_name}
+            onClick={() => setPreviewedCard(NONE_CARD)}
+          />
+        )}
+      </span>
       <span className='input-container'>
       
       <Select className='guess-input' 
@@ -455,16 +471,16 @@ function App() {
               <td
                 key={index}
                 className={`result-${textStylePair[1]}`}
-                onClick={() => setPreviewedCardName(guess.card.card_name === previewedCardName ? "" : guess.card.card_name)}
+                onClick={() => setPreviewedCard(guess.card.card_name === previewedCard.card_name ? NONE_CARD : guess.card)}
               >
                 <span className='card-name-container'>{guess.card.card_name}<br/>
                 <span
                   >
-                    {guess.card.card_name===previewedCardName && <u>Hide</u>}
-                    {guess.card.card_name!==previewedCardName && <u>Show</u>}
+                    {guess.card.card_name===previewedCard.card_name && <u>Hide</u>}
+                    {guess.card.card_name!==previewedCard.card_name && <u>Show</u>}
               </span>
-              <div className={'card-image-popup' + (guess.card.type === "Site" ? " site-img" : "")}>
-                {guess.card.card_name == previewedCardName && <img src={getCardImageUrl(previewedCardName)} alt={previewedCardName}/>}
+              <div className={'card-image-popup card-preview ' + (guess.card.type === "Site" ? " site-img" : "")}>
+                {guess.card.card_name == previewedCard.card_name && <img src={getCardImageUrl(previewedCard.card_name)} alt={previewedCard.card_name}/>}
               </div>
             </span>
               </td>

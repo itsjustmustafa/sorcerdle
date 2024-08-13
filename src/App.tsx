@@ -438,7 +438,7 @@ function App() {
         className='small-hire-me'
         onClick={() => window.open('https://www.linkedin.com/in/mustafa-xyz/', '_blank')}
       >
-        <p className='rainbowText'><i>Hire Me!</i></p></button>
+        <p className='rainbowText'><i>Hire Me! Pls</i></p></button>
       </span>
     </span>
     );

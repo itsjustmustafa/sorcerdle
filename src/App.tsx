@@ -1,5 +1,6 @@
 import { ReactElement, useEffect, useState } from 'react'
 import cardsJson from './data/sorcerycards.json'
+import cardImageUrls from './data/card_image_urls.json'
 import airThresLogoFile from './data/airthres.png'
 import earthThresLogoFile from './data/earththres.png'
 import fireThresLogoFile from './data/firethres.png'
@@ -77,6 +78,24 @@ interface Card {
   attack: number,
   life: number,
   thresholds: Thresholds
+};
+
+const NONE_CARD: Card = {
+  card_name: '',
+  rarity: '',
+  type_text: '',
+  type: '',
+  subtype: '',
+  rules_text: '',
+  cost: 0,
+  attack: 0,
+  life: 0,
+  thresholds: {
+    air: 0,
+    earth: 0,
+    fire: 0,
+    water: 0
+  }
 };
 
 const cardsToArray = (card: Card): any[] =>{
@@ -172,6 +191,7 @@ function App() {
   const [todayDate, setTodayDate] = useState("");
   const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
   const [shared, setShared] = useState(false);
+  const [previewedCard, setPreviewedCard] = useState<Card>(NONE_CARD);
 
 
   function RulesText(){
@@ -210,6 +230,7 @@ function App() {
     setCardsData(cardsJson);
     setTargetCard(getDailyCard());
     setTodayDate(new Date().toDateString());
+    // console.log("refrehsing component!");
   }, []);
   
   useEffect(() => {
@@ -257,9 +278,9 @@ function App() {
     }
     setCurrentAnswer("");
   };
-  
+
   const setGuessResults = (currentGuess: Guess, guessedCard: Card, targetCard: Card): void => {
-    zip(cardsToArray(guessedCard), cardsToArray(targetCard)).forEach((valuePair, index) => {
+    zip(cardsToArray(guessedCard), cardsToArray(targetCard)).forEach((valuePair) => {
       const guessedValue = valuePair[0];
       const targetValue = valuePair[1];
 
@@ -368,10 +389,16 @@ function App() {
         currentGuess.resultTexts.push(guessedValue);
         currentGuess.resultStyles.push("none");
       }
-    }
-    );
+    });
   }
 
+  const getCardImageUrl = (cardName: string): string => {
+    const card_url = cardImageUrls.find((override) => override.name === cardName);
+    if(card_url !== undefined){
+      return card_url.url;
+    }
+    return "";
+  };
   const canRevealHint = () => guesses.length >= GUESSES_UNTIL_HINT;
   
   const rulesTextHint = (): string => {
@@ -420,6 +447,18 @@ function App() {
     </span>
     <div className='game'>
       <h1>Sorcerdle!</h1>
+      <span
+        className='card_image_mobile_modal'
+      >
+        {previewedCard.card_name !== "" && (
+          <img
+            className={'card_image_mobile card-preview ' + (previewedCard.type === "Site" ? 'site-img' : 'nonsite-img')}
+            src={getCardImageUrl(previewedCard.card_name)}
+            alt={previewedCard.card_name}
+            onClick={() => setPreviewedCard(NONE_CARD)}
+          />
+        )}
+      </span>
       <span className='input-container'>
       
       <Select className='guess-input' 
@@ -449,8 +488,30 @@ function App() {
         <tbody>
         {guesses.map( (guess, index) => (
           <tr key={index}>
-          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index) => (
-            <td key={index} className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
+          {zip(guess.resultTexts, guess.resultStyles).map((textStylePair, index:number) => (
+            <>
+            {index !== 0 && (
+              <td key={index} className={`result-${textStylePair[1]}`}>{textStylePair[0]}</td>
+            )}
+            {index === 0 && (
+              <td
+                key={index}
+                className={`result-${textStylePair[1]}`}
+                onClick={() => setPreviewedCard(guess.card.card_name === previewedCard.card_name ? NONE_CARD : guess.card)}
+              >
+                <span className='card-name-container'>{guess.card.card_name}<br/>
+                <span
+                  >
+                    {guess.card.card_name===previewedCard.card_name && <u>Hide</u>}
+                    {guess.card.card_name!==previewedCard.card_name && <u>Show</u>}
+              </span>
+              <div className={'card-image-popup card-preview ' + (guess.card.type === "Site" ? " site-img" : "")}>
+                {guess.card.card_name == previewedCard.card_name && <img src={getCardImageUrl(previewedCard.card_name)} alt={previewedCard.card_name}/>}
+              </div>
+            </span>
+              </td>
+            )}
+            </>
           ))}
           </tr>
         ))}
@@ -463,3 +524,4 @@ function App() {
 };
 
 export default App
+

@@ -39,6 +39,8 @@ const isRarity = (object: any) : object is Rarity => "rank" in object;
 
 const isThresholds = (object: any): object is Thresholds => "air" in object && "fire" in object;
 
+// const isJSXElement = (object: any): object is JSX.Element => "key" in object && "props" in object && "type" in object;
+
 const stringToRarity = (str: string): Rarity => {
   switch (str) {
     case "Ordinary":
@@ -138,7 +140,11 @@ const cardKeywords = [
   "Waterbound",
   "Deathrite",
   "Flood",
-  "Projectile"
+  "Projectile",
+  "(F)",
+  "(E)",
+  "(A)",
+  "(W)",
 ]
 
 interface Guess {
@@ -155,17 +161,17 @@ const thresholdAsList = (thresholds: Thresholds) : string[] => {
     .concat(Array(thresholds.water).fill("W"))));
 }
 
-const thresCharToLogoMap =  (char: string, index: number): JSX.Element => {
+const thresCharToLogoMap =  (char: string, index: number, styling={}): JSX.Element => {
 
   switch (char){
     case "A":
-      return (<img key={index} src={airThresLogoFile} className='threslogo' />);
+      return (<img key={index} src={airThresLogoFile} className='threslogo' style={styling} />);
     case "E":
-      return (<img key={index} src={earthThresLogoFile} className='threslogo' />);
+      return (<img key={index} src={earthThresLogoFile} className='threslogo' style={styling} />);
     case "F":
-      return (<img key={index} src={fireThresLogoFile} className='threslogo' />);   
+      return (<img key={index} src={fireThresLogoFile} className='threslogo' style={styling} />);   
     case "W":
-      return (<img key={index} src={waterThresLogoFile} className='threslogo' />);
+      return (<img key={index} src={waterThresLogoFile} className='threslogo' style={styling} />);
     default:
       return <></>;
   }
@@ -318,7 +324,26 @@ function App() {
             style = "partial";
           }
         }
-        currentGuess.resultTexts.push(`${guessedValue.join(", ")}`);
+        // currentGuess.resultTexts.push(`${guessedValue.join(", ")}`);
+        currentGuess.resultTexts.push( <>
+          {guessedValue.map( (elem) => {
+            if(typeof elem == "string"){
+              switch(elem){
+                case "(A)":
+                  return thresCharToLogoMap("A", 0, {"width": "1em"});
+                case "(E)":
+                  return thresCharToLogoMap("E", 0, {"width": "1em"});
+                case "(F)":
+                  return thresCharToLogoMap("F", 0, {"width": "1em"});
+                case "(W)":
+                  return thresCharToLogoMap("W", 0, {"width": "1em"});
+                default:
+                  return <>{elem}</>;
+              }
+            }
+          }).reduce((acc, x) => acc === undefined ? x : <>{acc}{", "}{x}</>, undefined)}
+          </>
+        );
         currentGuess.resultStyles.push(style);
       }else if (isThresholds(guessedValue) && isThresholds(targetValue)){
         let style = "wrong";
@@ -444,6 +469,7 @@ function App() {
         onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
+        isDisabled={gameWon}
       />
       <button onClick={handleSubmit}>Submit</button>
       </span>

@@ -432,7 +432,14 @@ function App() {
   const winDisplay = (
     <span className='win-container'>
       <p>🥳🎉You Won!!!💯🎊</p>
+      <span className='share-button-container'>
       <button onClick={copyShareToClipboard}>{shared? "Copied": "Share"}</button>
+      <button 
+        className='small-hire-me'
+        onClick={() => window.open('https://www.linkedin.com/in/mustafa-xyz/', '_blank')}
+      >
+        <p className='rainbowText'><i>Hire Me!</i></p></button>
+      </span>
     </span>
     );
 
@@ -440,7 +447,7 @@ function App() {
     <>
     <span id='link-container'>
       <a href="https://github.com/itsjustmustafa/sorcerdle#sorcerdle" target='_blank'>Source / Bug report</a>
-      <a href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a>
+      {/* <a href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a> */}
     </span>
     <span id='help-link'>
       <a href="https://github.com/itsjustmustafa/sorcerdle/#how-to-play" target="_blank">How To Play</a>
@@ -469,13 +476,23 @@ function App() {
         onChange={(newValue) =>  showingSuggestionMenu ? setCurrentAnswer(newValue ? (newValue.value === "" ? "nothing" : newValue.value) : "uhoh") : null}
         onMenuOpen={() => setShowingSuggestionMenu(true)}
         onMenuClose={() => setShowingSuggestionMenu(false)}
-        isDisabled={gameWon}
+        styles={{
+          dropdownIndicator: defaultStyles => ({
+            ...defaultStyles,
+            'display': 'none'
+          })
+        }}
       />
-      <button onClick={handleSubmit}>Submit</button>
+      <button 
+        onClick={handleSubmit}
+        disabled={gameWon}  
+      >Submit</button>
       </span>
-      <span className='rules-container'>
-        <RulesText/>
-      </span>
+      {!gameWon && (
+        <span className='rules-container'>
+          <RulesText/>
+        </span>
+      )}
       {gameWon && winDisplay}
       <div className='table-container'>
       <table className='guesses-table'>

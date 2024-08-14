@@ -482,6 +482,7 @@ function App() {
             'display': 'none'
           })
         }}
+        placeholder={"Type a card name..."}
       />
       <button 
         onClick={handleSubmit}

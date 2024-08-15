@@ -8,7 +8,7 @@ import waterThresLogoFile from './data/waterthres.png'
 import './App.css'
 import Select from 'react-select';
 
-// const startsWith = (a:string, b:string) => a.toLowerCase().startsWith(b.toLowerCase());
+const startsWith = (a:string, b:string) => a.toLowerCase().startsWith(b.toLowerCase());
 const compareStrings = (a:string, b:string) => a.toLowerCase() === b.toLowerCase();
 const substring = (a:string, b:string) => a.toLowerCase().includes(b.toLowerCase());
 
@@ -246,8 +246,16 @@ function App() {
     }
     
     if (value.length > 0) {
-      const filteredSuggestions = cardsData
-        .filter(card => substring(card.card_name, value));
+      const filteredSuggestions = cardsData.map( card => {
+        if(startsWith(card.card_name, value)){
+          return ({card: card, score: 2});
+        }
+        if(substring(card.card_name, value)){
+          return ({card: card, score: 1});
+        }
+        return ({card:card, score:0});
+      }).sort((a, b) => b.score - a.score).filter(pair => pair.score > 0 ).map(pair => pair.card)
+
       setSuggestions(filteredSuggestions);
     }else{
       setSuggestions([]);

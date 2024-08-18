@@ -98,6 +98,15 @@ const NONE_CARD: Card = {
   }
 };
 
+function setToStorage<T>(key: string, value: T): void {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function getFromStorage<T>(key: string): T | null {
+  const item = localStorage.getItem(key);
+  return item ? JSON.parse(item) as T : null;
+}
+
 const cardsToArray = (card: Card): any[] =>{
   return [
     card.card_name,
@@ -154,27 +163,34 @@ interface Guess {
 }
 
 
-const thresholdAsList = (thresholds: Thresholds) : string[] => {
-  return Array(thresholds.air).fill("A")
-    .concat(Array(thresholds.earth).fill("E")
-    .concat(Array(thresholds.fire).fill("F")
-    .concat(Array(thresholds.water).fill("W"))));
+const thresholdAsList = (thresholds: Thresholds) : ThresholdElement[] => {
+  return Array(thresholds.air).fill(ThresholdElement.Air)
+    .concat(Array(thresholds.earth).fill(ThresholdElement.Earth)
+    .concat(Array(thresholds.fire).fill(ThresholdElement.Fire)
+    .concat(Array(thresholds.water).fill(ThresholdElement.Water))));
 }
 
-const thresCharToLogoMap =  (char: string, index: number, styling={}): JSX.Element => {
+const thresCharToLogoMap =  (thresholdElement: ThresholdElement, index: number, styling={}): JSX.Element => {
 
-  switch (char){
-    case "A":
+  switch (thresholdElement){
+    case ThresholdElement.Air:
       return (<img key={index} src={airThresLogoFile} className='threslogo' style={styling} />);
-    case "E":
+    case ThresholdElement.Earth:
       return (<img key={index} src={earthThresLogoFile} className='threslogo' style={styling} />);
-    case "F":
+    case ThresholdElement.Fire:
       return (<img key={index} src={fireThresLogoFile} className='threslogo' style={styling} />);   
-    case "W":
+    case ThresholdElement.Water:
       return (<img key={index} src={waterThresLogoFile} className='threslogo' style={styling} />);
     default:
       return <></>;
   }
+}
+
+enum ThresholdElement{
+  Air,
+  Earth,
+  Fire,
+  Water
 }
 
 function App() {
@@ -193,6 +209,7 @@ function App() {
   const [shared, setShared] = useState(false);
   const [previewedCard, setPreviewedCard] = useState<Card>(NONE_CARD);
 
+  const [debugText, setDebugText] = useState("");
 
   function RulesText(){
     
@@ -229,8 +246,17 @@ function App() {
   useEffect(() => {
     setCardsData(cardsJson);
     setTargetCard(getDailyCard());
-    setTodayDate(new Date().toDateString());
-    // console.log("refrehsing component!");
+    const todayString = new Date().toDateString();
+    setTodayDate(todayString);
+    if(getFromStorage("todays_date") == todayString){
+      let visitCount = Number(getFromStorage("visitCount") || 0);
+      setToStorage("visitCount", visitCount + 1);
+      setDebugText("You've been here before.. " + visitCount + " times...");
+
+    }else{
+      setDebugText("Welcome to a new day!");
+      setToStorage("todays_date", todayString);
+    }
   }, []);
   
   useEffect(() => {
@@ -336,18 +362,24 @@ function App() {
         currentGuess.resultTexts.push( <>
           {guessedValue.map( (elem) => {
             if(typeof elem == "string"){
+              let elementType = ThresholdElement.Air;
               switch(elem){
                 case "(A)":
-                  return thresCharToLogoMap("A", 0, {"width": "1em"});
+                  elementType = ThresholdElement.Air;
+                  break;
                 case "(E)":
-                  return thresCharToLogoMap("E", 0, {"width": "1em"});
+                  elementType = ThresholdElement.Earth;
+                  break;
                 case "(F)":
-                  return thresCharToLogoMap("F", 0, {"width": "1em"});
+                  elementType = ThresholdElement.Fire;
+                  break;
                 case "(W)":
-                  return thresCharToLogoMap("W", 0, {"width": "1em"});
+                  elementType = ThresholdElement.Water;
+                  break;
                 default:
                   return <>{elem}</>;
               }
+              return thresCharToLogoMap(elementType, 0, {"width": "1em"});
             }
           }).reduce((acc, x) => acc === undefined ? x : <>{acc}{", "}{x}</>, undefined)}
           </>
@@ -453,6 +485,7 @@ function App() {
 
   return (
     <>
+    {/* <>{debugText}</> */}
     <span id='link-container'>
       <a href="https://github.com/itsjustmustafa/sorcerdle#sorcerdle" target='_blank'>Source / Bug report</a>
       {/* <a href="https://www.linkedin.com/in/mustafa-xyz/" target='_blank'>Hire me pls</a> */}

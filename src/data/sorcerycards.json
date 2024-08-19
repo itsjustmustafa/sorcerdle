@@ -14,7 +14,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Blood Ravens",
@@ -31,7 +32,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Dark wings bring dark winds."
   },
   {
     "card_name": "Candlemas Monks",
@@ -48,7 +50,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cIf Candlemas be fair and bright, winter has another fight. If Candlemas brings cloud and rain, winter shall not come again.\u201c"
   },
   {
     "card_name": "Cloud Spirit",
@@ -65,7 +68,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Children sense beings that we cannot, in innocence seeing what wisdom forgot."
   },
   {
     "card_name": "Daperyll Vampire",
@@ -82,7 +86,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Dead of Night Demon",
@@ -99,7 +104,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Tiptoe cross the weald\u2019s black maw, where horned fiends creep ware tooth and claw."
   },
   {
     "card_name": "East-West Dragon",
@@ -116,7 +122,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Grandmaster Wizard",
@@ -133,7 +140,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Grim Reaper",
@@ -150,7 +158,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Gyre Hippogriffs",
@@ -167,7 +176,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "A wing aloft, will oft descry | The turning of the screw | \u2019Fore knee or eye construe"
   },
   {
     "card_name": "Haast Eagle",
@@ -184,7 +194,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Hardly a comfortable ride, but a ride, nonetheless."
   },
   {
     "card_name": "Headless Haunt",
@@ -201,7 +212,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Jacet sine nomine truncus."
   },
   {
     "card_name": "Highland Clansmen",
@@ -218,7 +230,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "What need for spells when one can cast iron?"
   },
   {
     "card_name": "Highland Falconer",
@@ -235,7 +248,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Highland Princess",
@@ -252,7 +266,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Only a fool would hope to win a princess' heart\u2014and title\u2014with trinket and trifle."
   },
   {
     "card_name": "Hounds of Ondaros",
@@ -269,7 +284,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "From hell's heart they stab at thee."
   },
   {
     "card_name": "Kite Archer",
@@ -286,7 +302,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Lord of the Void",
@@ -303,7 +320,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Men of Leng",
@@ -320,7 +338,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Midnight Rogue",
@@ -337,7 +356,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "I'll have respect for your laws when you make them respectable."
   },
   {
     "card_name": "Moon Clan Werewolf",
@@ -354,7 +374,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Upward, before the onmooning it wolfed."
   },
   {
     "card_name": "Nightmare",
@@ -371,7 +392,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Nightly we ply the razor thin barrier between being and unbeing."
   },
   {
     "card_name": "Nimbus Jinn",
@@ -388,7 +410,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Palliburrie Bats",
@@ -405,7 +428,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "To the bat, it is the world that\u2019s blind. To the song-spun tapestry of its kind."
   },
   {
     "card_name": "Peregrine Apparition",
@@ -422,7 +446,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The truly sublime know no bounds."
   },
   {
     "card_name": "Phantasmal Shade",
@@ -439,7 +464,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Phantom Steed",
@@ -456,7 +482,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Phase Assassin",
@@ -473,7 +500,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Plumed Pegasus",
@@ -490,7 +518,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Thereupon I could not breathe, but sighs were pardoned unto me. To see the pegasus fly is to feel the spirit soar."
   },
   {
     "card_name": "Puppet Master",
@@ -507,7 +536,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Recurring Specter",
@@ -524,7 +554,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Riddle Sphinx",
@@ -541,7 +572,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Roaming Monster",
@@ -558,7 +590,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Heeere's Brawny!"
   },
   {
     "card_name": "Skirmishers of Mu",
@@ -575,7 +608,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sky Baron",
@@ -592,7 +626,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sling Pixies",
@@ -609,7 +644,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Snow Leopard",
@@ -626,7 +662,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cThis is the Le-o-pard, my child, His temper\u2019s anything but mild.\u201d \u2015 A. M. Shaw & C. Beckwith"
   },
   {
     "card_name": "Spectral Stalker",
@@ -643,7 +680,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cWe live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.\u201d \u2015 H. P. Lovecraft"
   },
   {
     "card_name": "Spire Lich",
@@ -660,7 +698,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ultimate Horror",
@@ -677,7 +716,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Vril Revenant",
@@ -694,7 +734,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wind Sylph",
@@ -711,7 +752,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Witherwing Hero",
@@ -728,7 +770,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Zephyranne Airship",
@@ -745,12 +788,13 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Blink",
     "rarity": "Ordinary",
-    "type_text": "\r\nOrdinary Magic of tactical transmission",
+    "type_text": "Ordinary Magic of tactical transmission",
     "type": "Magic",
     "subtype": "",
     "rules_text": "An ally teleports to a location it\u2019s nearby. Draw a card.",
@@ -762,7 +806,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Browse",
@@ -779,7 +824,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Chain Lightning",
@@ -796,7 +842,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Chaos Twister",
@@ -813,7 +860,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Disenchant",
@@ -830,7 +878,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "... and a haughty spirit before a fall."
   },
   {
     "card_name": "Dream-Quest",
@@ -847,7 +896,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "When your dreams are your own, I'll meet you there."
   },
   {
     "card_name": "Fade",
@@ -864,7 +914,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "I could pay, but then I'd just have to rob them again."
   },
   {
     "card_name": "Flanking Maneuver",
@@ -881,7 +932,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Grapple Shot",
@@ -898,7 +950,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Lightning Bolt",
@@ -915,7 +968,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mortality",
@@ -932,7 +986,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Man is born a candle, the better part burnt out."
   },
   {
     "card_name": "Occult Ritual",
@@ -949,7 +1004,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cWith mingled reverence and awe they cried, softly, odiously, appalling, the name of the Being whom they momentarily expected to appear.\u201d \u2015 Algernon Blackwood"
   },
   {
     "card_name": "Psionic Blast",
@@ -966,7 +1022,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "A laden conscience soon becomes leaden."
   },
   {
     "card_name": "Rain of Arrows",
@@ -983,7 +1040,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cThen we will fight in the shade!\u201c\u2014 Dienekes"
   },
   {
     "card_name": "Raise Dead",
@@ -1000,7 +1058,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The living need the dead far more than the dead need the living. \u2014 Thomas Laqueur"
   },
   {
     "card_name": "Recall",
@@ -1017,7 +1076,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Telekinesis",
@@ -1034,7 +1094,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cIf it\u2019s in my hand, it\u2019s mine.\u201d \u2014 Toddler\u2019s first rule."
   },
   {
     "card_name": "Teleport",
@@ -1051,7 +1112,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cThere was no real sense of time passing, and in the last act it felt like everyone was just teleporting everywhere.\u201d \u2014 Highland Theater Critic"
   },
   {
     "card_name": "Unlikely Alliance",
@@ -1068,7 +1130,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "There are three rules for winning a war. Unfortunately, nobody knows what they are."
   },
   {
     "card_name": "Waypoint Portal",
@@ -1085,7 +1148,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Whirling Blades",
@@ -1102,7 +1166,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Windblast",
@@ -1119,7 +1184,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Evil Presence",
@@ -1136,7 +1202,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Summoning Sphere",
@@ -1153,7 +1220,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The icy earth swung blind and blackening in the moonless air. Morn came and went\u2014and came, and brought no day. \u2014 Lord Byron"
   },
   {
     "card_name": "Thunderstorm",
@@ -1170,7 +1238,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wall of Air",
@@ -1187,7 +1256,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Albespine Pikemen",
@@ -1204,7 +1274,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cIt serves him right who runs into the long reach of a pikeman.\u201d \u2014 Grimmelshausen"
   },
   {
     "card_name": "\u00c4lvalinne Dryads",
@@ -1221,7 +1292,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "How fair to greet, on misted morn | A daint parade of dew-kissed bloom | Now deep, inspire! A bliss reborn | Of air faint lade with sweet perfume"
   },
   {
     "card_name": "Amazon Warriors",
@@ -1238,7 +1310,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cTonight, we keep watch. And tomorrow, before the dawn, we shall arm ourselves in our weapons, and beside their hollow vessels waken bitter Ares.\u201c\u2014 Homer"
   },
   {
     "card_name": "Atlas Wanderers",
@@ -1255,7 +1328,8 @@
       "earth": 3,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Autumn Unicorn",
@@ -1272,7 +1346,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Concerning the fair unicorn, sundry notions do abide. Some demur, others deny, children delight, and charlatans lie."
   },
   {
     "card_name": "Belmotte Longbowmen",
@@ -1289,7 +1364,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "In the left hand of every delight lies woe; and for that, my bow."
   },
   {
     "card_name": "Bone Rabble",
@@ -1306,7 +1382,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Bosk Troll",
@@ -1323,7 +1400,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Its thoughts are reflections in a forest pool, softly trembling with wind and rain."
   },
   {
     "card_name": "Cave Trolls",
@@ -1340,7 +1418,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "We dig, we lug, we nosh da bug. Bore ore nor more, we jig and jug!"
   },
   {
     "card_name": "Conqueror Worm",
@@ -1357,7 +1436,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Crown Prince",
@@ -1374,7 +1454,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Emmerich, the final Daniger king, assumed the throne only after outliving a horde of brothers and nephews."
   },
   {
     "card_name": "Dalcean Phalanx",
@@ -1391,7 +1472,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201c\u2018Fairest of sights on the dull black earth,\u2019 some say, \u2018Is a host of horse in battle array.\u2019 | \u2018A phalanx on foot,\u2019 another will cry, \u2018Or a navy full sail athwart the sky.\u2019\u201c\u2014 Sappho"
   },
   {
     "card_name": "Dwarven Digging Team",
@@ -1408,7 +1490,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Frontier Settlers",
@@ -1425,7 +1508,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cBe fruitful, and multiply, and replenish the earth.\u201d \u2014 Genesis 1:28"
   },
   {
     "card_name": "Gneissgnath Gnomes",
@@ -1442,7 +1526,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Grey Wolves",
@@ -1450,7 +1535,7 @@
     "type_text": "A ravenous pack of Ordinary Beasts",
     "type": "Minion",
     "subtype": "Beast",
-    "rules_text": "Your spellbook may include any number of Grey Wolves Has +1 power for each other Grey Wolves nearby.",
+    "rules_text": "Your spellbook may include any number of Grey Wolves. Has +1 power for each other Grey Wolves nearby.",
     "cost": 2,
     "attack": 1,
     "life": -1,
@@ -1459,7 +1544,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "House Arn Bannerman",
@@ -1476,7 +1562,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Our crest and banner will once again be a symbol of glory and strength!"
   },
   {
     "card_name": "King of the Realm",
@@ -1493,7 +1580,8 @@
       "earth": 3,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Land Surveyor",
@@ -1510,7 +1598,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Bare is the brotherless back. And so too shall be unlevied land."
   },
   {
     "card_name": "Mage Slayer",
@@ -1527,7 +1616,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Death is too kind for the likes of you. But I am a kind man."
   },
   {
     "card_name": "Master Tracker",
@@ -1544,7 +1634,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Becoming sufficiently familiar with nature is a substitute for understanding it."
   },
   {
     "card_name": "Midland Army",
@@ -1561,7 +1652,8 @@
       "earth": 4,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Miracle Workers",
@@ -1578,7 +1670,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Seek not relief for grievous deeds in mercy done, but know that the prayers of all good people are good."
   },
   {
     "card_name": "Monastery Gargoyle",
@@ -1595,7 +1688,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Through rain and regret, Through wind and war, we bide our time."
   },
   {
     "card_name": "Monster Hunter",
@@ -1612,7 +1706,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Nor glory nor profit is his reward\u2014a safer world is."
   },
   {
     "card_name": "Mordric Druids",
@@ -1629,7 +1724,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mountain Giant",
@@ -1646,7 +1742,8 @@
       "earth": 4,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Heart and hearth will tremble."
   },
   {
     "card_name": "Pudge Butcher",
@@ -1663,7 +1760,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Queen of Midland",
@@ -1680,7 +1778,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Only a fool outshines the sun."
   },
   {
     "card_name": "Root Spider",
@@ -1697,7 +1796,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Royal Bodyguard",
@@ -1714,7 +1814,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Scent Hounds",
@@ -1731,7 +1832,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "For the upwardly mobile of the Midland Court, accolades in the Royal Hunt of the Mist were as treasured as any war-time achievement."
   },
   {
     "card_name": "Scourge Zombies",
@@ -1748,7 +1850,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Shield Maidens",
@@ -1765,7 +1868,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "My word is my bond, my shield is my service."
   },
   {
     "card_name": "Silver Valkyries",
@@ -1782,7 +1886,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sirian Templar",
@@ -1799,7 +1904,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Struck down, the templar rose again, guided by his holy purpose\u2014and the dawn rose with him."
   },
   {
     "card_name": "Sisters of Silence",
@@ -1816,7 +1922,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cSince long I\u2019ve held silence as a remedy for harm.\u201d \u2014 Aeschylus"
   },
   {
     "card_name": "Slumbering Giantess",
@@ -1833,7 +1940,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Squirming Mass",
@@ -1850,7 +1958,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Stone-gaze Gorgons",
@@ -1867,7 +1976,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "In the gleam of his unblooded sword, Veslin unwittingly beheld a sight no mortal had yet lived to unsee."
   },
   {
     "card_name": "Tragedy Worrywart",
@@ -1884,7 +1994,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "He frets incessantly to preserve the life he's not living."
   },
   {
     "card_name": "Vanguard Knights",
@@ -1901,7 +2012,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wicked Witch",
@@ -1918,7 +2030,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "What sense in hoping for death, with nothing left to die for?"
   },
   {
     "card_name": "Wild Boars",
@@ -1935,7 +2048,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Twere once again drowsy, when all in a rush, wild boar came a-snuffling, straight out of the brush!"
   },
   {
     "card_name": "Wraetannis Titan",
@@ -1952,7 +2066,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "O valley low, innocent dove What grievous blows rain from above"
   },
   {
     "card_name": "Yourke Crossbowmen",
@@ -1969,7 +2084,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Corin's shield wracked and shivered like a plucked bowstring\u2014but held!\u2014while he reloaded."
   },
   {
     "card_name": "Assorted Animals",
@@ -1986,7 +2102,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Border Militia",
@@ -2003,7 +2120,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Bury",
@@ -2020,7 +2138,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cFrom out of the depths of the countless pits there came a melancholy rustling from the garments of the buried.\u201d \u2014 Edgar Allan Poe"
   },
   {
     "card_name": "Call to War",
@@ -2037,7 +2156,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Cave-In",
@@ -2054,7 +2174,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Common Sense",
@@ -2071,7 +2192,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cCommon sense is the most widely shared commodity in the world, for every man is convinced that he is well supplied with it.\u201d \u2014 Ren\u00e9 Descartes"
   },
   {
     "card_name": "Craterize",
@@ -2088,7 +2210,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Dispel",
@@ -2105,7 +2228,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Pride goeth before destruction ..."
   },
   {
     "card_name": "Divine Healing",
@@ -2122,7 +2246,8 @@
       "earth": 3,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Pray not for an easier path, but to become a stronger person."
   },
   {
     "card_name": "Earthquake",
@@ -2139,7 +2264,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Exorcism",
@@ -2156,7 +2282,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Nor devil nor demon shall undo this done! Begone!"
   },
   {
     "card_name": "Gigantism",
@@ -2173,7 +2300,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "I, uh ... think you're gonna need a new roof."
   },
   {
     "card_name": "Minecart Madness",
@@ -2190,7 +2318,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Overpower",
@@ -2207,7 +2336,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Suddenly the soldier was flung so violently from his mount, his sword became a ploughshare."
   },
   {
     "card_name": "Shield Wall",
@@ -2224,7 +2354,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Star-seeds of Uhr",
@@ -2241,7 +2372,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "For each layer of ruin excavated, another calamity of yore was revealed."
   },
   {
     "card_name": "Unravel",
@@ -2258,7 +2390,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cMy heart, why come you here alone? The wild thing of my heart is grown, to be a thing, fairy, and wild, and fair, and whole.\u201d \u2014 G. P. T. Branwen"
   },
   {
     "card_name": "Crusade",
@@ -2275,7 +2408,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Entangle Terrain",
@@ -2292,7 +2426,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Rest in Peace",
@@ -2309,7 +2444,8 @@
       "earth": 2,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ancient Dragon",
@@ -2326,7 +2462,8 @@
       "earth": 0,
       "fire": 3,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Aramos Mercenaries",
@@ -2343,12 +2480,13 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "The purse has enticements unknown to virtue."
   },
   {
     "card_name": "Askelon Phoenix",
     "rarity": "Elite",
-    "type_text": "An Elite Beast of candescent splendor\r\n",
+    "type_text": "An Elite Beast of candescent splendor",
     "type": "Minion",
     "subtype": "Beast",
     "rules_text": "Airborne | If Askelon Phoenix would take damage from a fire spell or ability, it gains +1 power this turn, instead.",
@@ -2360,7 +2498,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Awakened Mummies",
@@ -2377,7 +2516,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Bodies in desert tombs are often very well preserved. Mayhap too well."
   },
   {
     "card_name": "Azuridge Caravan",
@@ -2394,7 +2534,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Defendit numerus, liberat varietas."
   },
   {
     "card_name": "Bane Widow",
@@ -2411,7 +2552,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "Born of earth, yet suckled by Hell's fire. "
   },
   {
     "card_name": "Beast of Burden",
@@ -2428,7 +2570,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Louder, louder! Blast your snorting drums! Life\u2019s most weary load is yet to come."
   },
   {
     "card_name": "Bull Demons of Adum",
@@ -2445,7 +2588,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cA bull won\u2019t charge a sleeping man. Go to bed, child.\u201d"
   },
   {
     "card_name": "Cauldron Crones",
@@ -2462,7 +2606,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Cerberus in Chains",
@@ -2479,7 +2624,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Clamor of Harpies",
@@ -2496,7 +2642,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Colicky Dragonettes",
@@ -2513,7 +2660,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "Wee dragon\u2019s game a belch of flame to lay the mighty low."
   },
   {
     "card_name": "Courtesan Tha\u00efs",
@@ -2530,7 +2678,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "Well all the while blood shall spill, should woman's wile belie man's will."
   },
   {
     "card_name": "Death Dealer",
@@ -2547,7 +2696,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "With frank hand the dark traveler laid waste to all who came before him. A master of the art paints a portrait of death."
   },
   {
     "card_name": "Doomsday Prophet",
@@ -2564,7 +2714,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "The end is nigh!"
   },
   {
     "card_name": "Escyllion Cyclops",
@@ -2581,7 +2732,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cWe wept and raised our hands to the heavens on seeing such a horrific sight, for we knew not what else to do.\u201d \u2014 Homer"
   },
   {
     "card_name": "Far East Assassin",
@@ -2598,7 +2750,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Gr\u00f6sse Poltergeist",
@@ -2615,7 +2768,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Hillock Basilisk",
@@ -2632,7 +2786,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Infernal Legion",
@@ -2649,7 +2804,8 @@
       "earth": 0,
       "fire": 3,
       "water": 0
-    }
+    },
+    "flavour_text": "Grave cand\u00e9labre, en danse macabre, the Damned parade in ghastly mob."
   },
   {
     "card_name": "Karkemish Chimera",
@@ -2666,7 +2822,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Lava Salamander",
@@ -2683,7 +2840,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "Attempts to induce metamorphosis in neotinic lavalotls were, unfortunately, successful."
   },
   {
     "card_name": "Maze Minotaur",
@@ -2700,7 +2858,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ogre Goons",
@@ -2717,7 +2876,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cGrok, grok! Me find rock!\u201d \u201cWhat rock do? It sit there!\u201d"
   },
   {
     "card_name": "Outback Strider",
@@ -2734,7 +2894,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Panorama Manticore",
@@ -2751,7 +2912,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Petrosian Cavalry",
@@ -2768,7 +2930,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "By their swift steeds and swifter swords the tide of many a battle has turned."
   },
   {
     "card_name": "Pit Vipers",
@@ -2785,7 +2948,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Always look before you leap, for snakes among the hollows creep."
   },
   {
     "card_name": "Quarrelsome Kobolds",
@@ -2802,7 +2966,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cHe started it!\u201d \u2014 The one that started it"
   },
   {
     "card_name": "Raal Dromedary",
@@ -2819,7 +2984,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cAnd a coarse grace remained: his head was high, Though his gaunt flanks with a great mange were worn: There was not any yearning in his eye, But on his lips and nostril infinite scorn.\u201d \u2014 Archibald Young Campbell"
   },
   {
     "card_name": "Rimland Nomads",
@@ -2836,7 +3002,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "As the sands shift, so shall we."
   },
   {
     "card_name": "Sacred Scarabs",
@@ -2853,7 +3020,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "It\u2019s all fun and games until someone steps on a bug."
   },
   {
     "card_name": "Sand Worm",
@@ -2870,7 +3038,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Only a soft susurration betrays the passing of these desert leviathans far beneath your feet."
   },
   {
     "card_name": "Scavenging Fiend",
@@ -2887,7 +3056,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Seasoned Sellsword",
@@ -2895,7 +3065,7 @@
     "type_text": "An Elite Mortal serves the highest bidder",
     "type": "Minion",
     "subtype": "Mortal",
-    "rules_text": "Avatars nearby have \"Discard a card \u2192 Gain control of Seasoned Sellsword.\"",
+    "rules_text": "Avatars nearby have \u201cDiscard a card \u2192 Gain control of Seasoned Sellsword.\u201c",
     "cost": 2,
     "attack": 4,
     "life": -1,
@@ -2904,7 +3074,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sirocco Scorpions",
@@ -2921,7 +3092,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Tread light! And hasten thee away from skittering cinders, sun-scorched obsidian shards asway."
   },
   {
     "card_name": "Swiven Scout",
@@ -2938,7 +3110,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cKnow thine enemy and know thyself, and feel not the awe of a hundred battles.\u201c\u2014 Sun Tzu"
   },
   {
     "card_name": "Tvinnax Berserker",
@@ -2946,7 +3119,7 @@
     "type_text": "An Exceptional Mortal lusts for blood",
     "type": "Minion",
     "subtype": "Mortal",
-    "rules_text": "Whenever Tvinnax Berserker can attack a unit, he must Untap Tvinnax Berserker whenever he attacks and kills an enemy minion.",
+    "rules_text": "Whenever Tvinnax Berserker can attack a unit, he must. Untap Tvinnax Berserker whenever he attacks and kills an enemy minion.",
     "cost": 4,
     "attack": 3,
     "life": -1,
@@ -2955,7 +3128,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "Most folk share naught with berserkers save for being, and even that not for long."
   },
   {
     "card_name": "Vile Imp",
@@ -2972,7 +3146,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "One good burn deserves another."
   },
   {
     "card_name": "Wayfaring Pilgrim",
@@ -2989,7 +3164,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wills-o'-the-Wisp",
@@ -3006,7 +3182,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Backstab",
@@ -3023,7 +3200,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Blaze",
@@ -3040,7 +3218,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Boil",
@@ -3057,7 +3236,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Cone of Flame",
@@ -3074,7 +3254,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Critical Strike",
@@ -3091,7 +3272,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Disintegrate",
@@ -3108,7 +3290,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cFor dust thou art, and to dust thou wilt.\u201d \u2015 Genesis 3:19"
   },
   {
     "card_name": "Fireball",
@@ -3125,7 +3308,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Firebolts",
@@ -3142,7 +3326,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Flame Wave",
@@ -3159,7 +3344,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Heat Ray",
@@ -3176,7 +3362,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Immolation",
@@ -3193,7 +3380,8 @@
       "earth": 0,
       "fire": 3,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Incinerate",
@@ -3210,7 +3398,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Scaleforge stoked, proud kite untamed, in flagrant flight unfurled."
   },
   {
     "card_name": "Infiltrate",
@@ -3227,7 +3416,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Leap Attack",
@@ -3244,7 +3434,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mad Dash",
@@ -3261,7 +3452,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "Guaranteed delivery in one month or less, or your money back!"
   },
   {
     "card_name": "Major Explosion",
@@ -3278,7 +3470,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Meteor Shower",
@@ -3295,7 +3488,8 @@
       "earth": 0,
       "fire": 3,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Minor Explosion",
@@ -3312,7 +3506,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pact with the Devil",
@@ -3329,7 +3524,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Poison Nova",
@@ -3346,12 +3542,13 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Scorched Earth",
     "rarity": "Elite",
-    "type_text": "Elite Magic of dire desperation\r\n",
+    "type_text": "Elite Magic of dire desperation",
     "type": "Magic",
     "subtype": "",
     "rules_text": "Choose any number of sites you control. Destroy each of those sites and everything there.",
@@ -3363,7 +3560,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Spin Attack",
@@ -3380,7 +3578,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Warp Spasm",
@@ -3397,7 +3596,8 @@
       "earth": 0,
       "fire": 3,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Drought",
@@ -3414,7 +3614,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Jihad",
@@ -3431,7 +3632,8 @@
       "earth": 0,
       "fire": 2,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sandstorm",
@@ -3439,7 +3641,7 @@
     "type_text": "An Ordinary Aura of swirling silica",
     "type": "Aura",
     "subtype": "",
-    "rules_text": "Affected sites and units atop them can't be attacked or intercepted At the start of your turn, dispel Sandstorm.",
+    "rules_text": "Affected sites and units atop them can't be attacked or intercepted. At the start of your turn, dispel Sandstorm.",
     "cost": 1,
     "attack": -1,
     "life": -1,
@@ -3448,7 +3650,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wall of Fire",
@@ -3456,7 +3659,7 @@
     "type_text": "An Ordinary Aura and blazing barricade",
     "type": "Aura",
     "subtype": "",
-    "rules_text": "Conjure atop the border of a site you control Whenever a unit passes through Wall of Fire, it takes 3 damage.",
+    "rules_text": "Conjure atop the border of a site you control. Whenever a unit passes through Wall of Fire, it takes 3 damage.",
     "cost": 2,
     "attack": -1,
     "life": -1,
@@ -3465,7 +3668,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wildfire",
@@ -3482,7 +3686,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Accursed Albatross",
@@ -3499,7 +3704,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Adept Illusionist",
@@ -3516,7 +3722,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Anui Undine",
@@ -3533,7 +3740,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": "What is a puddle but an ocean waiting to be discovered?"
   },
   {
     "card_name": "Bridge Troll",
@@ -3550,7 +3758,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Oi! 'oo 's 'at trippin' o'er me bridge?"
   },
   {
     "card_name": "Brobdingnag Bullfrog",
@@ -3567,7 +3776,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Captain Baldassare",
@@ -3584,7 +3794,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Coral-Reef Kelpie",
@@ -3601,7 +3812,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Why'd the kelpie cross the shoal? To get to the other tide."
   },
   {
     "card_name": "Court Jester",
@@ -3618,7 +3830,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Deep-Sea Mermaids",
@@ -3635,7 +3848,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Diluvian Kraken",
@@ -3652,7 +3866,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Felbog Frog Men",
@@ -3669,7 +3884,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Fenvale Muse",
@@ -3686,7 +3902,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "As the sun troubles the morning she stirs my heart."
   },
   {
     "card_name": "Fey Changeling",
@@ -3703,7 +3920,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ghost Ship",
@@ -3720,7 +3938,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Giant Shark",
@@ -3737,7 +3956,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Great Old One",
@@ -3754,7 +3974,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": "What lurks beneath depths unplumbed by mortal keel! Dark and darker black tides roll, heedless of earth's cries for ransom."
   },
   {
     "card_name": "Guile Sirens",
@@ -3771,7 +3992,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Lord of Unland",
@@ -3779,7 +4001,7 @@
     "type_text": "A Unique Merfolk of aquatic might",
     "type": "Minion",
     "subtype": "Merfolk",
-    "rules_text": "Submerge  | Other allies occupying Lord of Unland's body of water have +1 power.",
+    "rules_text": "Submerge | Other allies occupying Lord of Unland's body of water have +1 power.",
     "cost": 4,
     "attack": 3,
     "life": -1,
@@ -3788,7 +4010,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": "The Ocean-Mist that bends, that binds, nor' east sou' west the rolling tides."
   },
   {
     "card_name": "Megamoeba",
@@ -3805,7 +4028,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mother Nature",
@@ -3822,7 +4046,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Muck Lampreys",
@@ -3839,7 +4064,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "These pallid parasites plague the swamplands, effortlessly boring through fen and flesh alike."
   },
   {
     "card_name": "Old Salt Anchorman",
@@ -3856,7 +4082,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Neither should a ship rely on one small anchor, nor a life on one fair hope. \u2015 Epictetus"
   },
   {
     "card_name": "Ormund Harpooneers",
@@ -3873,7 +4100,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pirate Ship",
@@ -3890,7 +4118,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "\u201cBuild me straight, O worthy Master! Staunch and strong, a goodly vessel, That shall laugh at all disaster, And with wave and whirlwind wrestle!\u201c \u2014 Henry Wadsworth Longfellow"
   },
   {
     "card_name": "Polar Bears",
@@ -3907,7 +4136,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Polar Explorers",
@@ -3924,7 +4154,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Porcupine Pufferfish",
@@ -3941,7 +4172,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "A remarkable thirteen pufferfish entries are found in Bog'duul\u2019s Greater and Lesser Poisons and Their Uses."
   },
   {
     "card_name": "Ruler of Thul",
@@ -3949,7 +4181,7 @@
     "type_text": "A Unique Mortal of hibernal majesty",
     "type": "Minion",
     "subtype": "Mortal",
-    "rules_text": "Charge  | Allies can move as if the top and bottom edges of the realm were connected. Other allies occupying sites there have +1 power.",
+    "rules_text": "Charge | Allies can move as if the top and bottom edges of the realm were connected. Other allies occupying sites there have +1 power.",
     "cost": 4,
     "attack": 3,
     "life": -1,
@@ -3958,7 +4190,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sea Raider",
@@ -3975,7 +4208,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sea Serpent",
@@ -3992,7 +4226,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "The study of sea serpents advances one funeral at a time."
   },
   {
     "card_name": "Sedge Crabs",
@@ -4009,7 +4244,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "\u201cOne will never make the crab walk straight.\u201c \u2014 Aristophanes"
   },
   {
     "card_name": "Seirawan Hydra",
@@ -4026,7 +4262,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Fell the tree, and the branches are soon cut off. \u2014 Francis Quarles"
   },
   {
     "card_name": "Selfsame Simulacrum",
@@ -4043,7 +4280,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": "Common folk view their lives through a half-silvered mirror, seeing only their own reflection."
   },
   {
     "card_name": "Sneak Thief",
@@ -4060,7 +4298,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Swamp Buffalo",
@@ -4077,7 +4316,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Impassive, plump, and peaceful, the swamp buffalo is an icon of contentment."
   },
   {
     "card_name": "Swan Maidens",
@@ -4094,7 +4334,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Before woman was, the water awaited her."
   },
   {
     "card_name": "Tide Naiads",
@@ -4111,7 +4352,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Tringh Constrictor",
@@ -4128,7 +4370,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Tufted Turtles",
@@ -4145,7 +4388,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "A turtle is never without a castle\u2014or a coffin."
   },
   {
     "card_name": "Unland Angler",
@@ -4162,12 +4406,13 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Unland Eel",
     "rarity": "Exceptional",
-    "type_text": "An Exceptional Beast whelms the unwary\r\n",
+    "type_text": "An Exceptional Beast whelms the unwary",
     "type": "Minion",
     "subtype": "Beast",
     "rules_text": "Submerge | Whenever Unland Eel submerges, it may drag another minion here down with it.",
@@ -4179,7 +4424,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Yokai Kappas",
@@ -4196,12 +4442,13 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": "In the cool winter months when cucurbits don't grow, kappas of the Yokai forest find other means of refreshment."
   },
   {
     "card_name": "Dodge Roll",
     "rarity": "Exceptional",
-    "type_text": "Exceptional Magic, nimble and quick\r\n",
+    "type_text": "Exceptional Magic, nimble and quick",
     "type": "Magic",
     "subtype": "",
     "rules_text": "May be cast when an ally is attacked. An attacked ally may move to another adjacent location to evade the attack.",
@@ -4213,7 +4460,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Drown",
@@ -4230,7 +4478,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Extinguish",
@@ -4247,7 +4496,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Fire Harpoons!",
@@ -4264,7 +4514,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Font of Life",
@@ -4281,7 +4532,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Frost Nova",
@@ -4298,7 +4550,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Geyser",
@@ -4315,7 +4568,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ice Lance",
@@ -4332,7 +4586,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Marine Voyage",
@@ -4349,7 +4604,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Plague of Frogs",
@@ -4366,7 +4622,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": "No more chilling a sound than a congress of croaks, and the splitter splatter of slimy feet."
   },
   {
     "card_name": "Pollimorph",
@@ -4383,7 +4640,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Replication",
@@ -4400,7 +4658,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "A great sorcerer does not imitate; he plagiarizes."
   },
   {
     "card_name": "Riptide",
@@ -4417,7 +4676,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Shrink",
@@ -4434,7 +4694,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sleep",
@@ -4451,7 +4712,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Breathe deep the gathering bloom."
   },
   {
     "card_name": "Stormy Seas",
@@ -4459,7 +4721,7 @@
     "type_text": "Exceptional Magic of maritime furor",
     "type": "Magic",
     "subtype": "",
-    "rules_text": "Submerge all minions and artifacts occupying target water site.",
+    "rules_text": "Submerge all minions and artifacts occupying target water site. ",
     "cost": 4,
     "attack": -1,
     "life": -1,
@@ -4468,7 +4730,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "The sea is angry today, my friends; hike and hold, men, fly! Bring due astern Neptune's belly!"
   },
   {
     "card_name": "Twist of Fate",
@@ -4485,7 +4748,8 @@
       "earth": 0,
       "fire": 0,
       "water": 3
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Upwelling",
@@ -4502,7 +4766,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": "There is no height to which confident fools cannot ascend."
   },
   {
     "card_name": "Wrath of the Sea",
@@ -4519,7 +4784,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Abundance",
@@ -4536,7 +4802,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Atlantean Fate",
@@ -4553,7 +4820,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Blizzard",
@@ -4561,7 +4829,7 @@
     "type_text": "An Ordinary Aura of forestalling frost",
     "type": "Aura",
     "subtype": "",
-    "rules_text": "Affected sites and units atop them can't be attacked or intercepted At the start of your turn, dispel Blizzard.",
+    "rules_text": "Affected sites and units atop them can't be attacked or intercepted. At the start of your turn, dispel Blizzard.",
     "cost": 1,
     "attack": -1,
     "life": -1,
@@ -4570,7 +4838,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Flood",
@@ -4587,7 +4856,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": "Nature is the anvil that has broken many hammers."
   },
   {
     "card_name": "Mariner's Curse",
@@ -4604,7 +4874,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Silence",
@@ -4621,7 +4892,8 @@
       "earth": 0,
       "fire": 0,
       "water": 2
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wall of Ice",
@@ -4629,7 +4901,7 @@
     "type_text": "An Ordinary Aura of impassable ice",
     "type": "Aura",
     "subtype": "",
-    "rules_text": "Conjure atop the border of a site you control Units can't traverse Wall of Ice on the ground.",
+    "rules_text": "Conjure atop the border of a site you control. Units can't traverse Wall of Ice on the ground.",
     "cost": 2,
     "attack": -1,
     "life": -1,
@@ -4638,7 +4910,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "All-terrain Vestments",
@@ -4655,7 +4928,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Amethyst Core",
@@ -4672,7 +4946,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Angel's Egg",
@@ -4689,7 +4964,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Aquamarine Core",
@@ -4706,7 +4982,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Battering Ram",
@@ -4723,7 +5000,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Belfry",
@@ -4740,7 +5018,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Black Obelisk",
@@ -4757,7 +5036,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Blasted Oak",
@@ -4774,7 +5054,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Buried Treasure",
@@ -4791,7 +5072,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Chains of Prometheus",
@@ -4808,7 +5090,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cBe sure of this, O young ambition, all mortal greatness is but disease.\u201d \u2014 Herman Melville"
   },
   {
     "card_name": "Crave Golem",
@@ -4825,7 +5108,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "As enmity gave way to amity, we soon found we'd created far worse than a monster: a machine."
   },
   {
     "card_name": "Crown of the Victor",
@@ -4842,7 +5126,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The gods see their glory in you this day."
   },
   {
     "card_name": "Devil's Egg",
@@ -4859,7 +5144,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Doomsday Device",
@@ -4876,7 +5162,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Drums of Doom",
@@ -4893,7 +5180,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "A trepid pulse, a throb of bloodpour\u2019d passion, and life\u2019s spark seemed to each one about them lost."
   },
   {
     "card_name": "Flaming Sword",
@@ -4910,7 +5198,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Gilded Aegis",
@@ -4927,7 +5216,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Iron Shackles",
@@ -4944,7 +5234,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "How can you claim to be free, when you've never tried to find the end of your tether?"
   },
   {
     "card_name": "Kythera Mechanism",
@@ -4961,7 +5252,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "All winds are favorable when the destination is unknown."
   },
   {
     "card_name": "Land Deed",
@@ -4978,12 +5270,13 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Possession is nine tenths of the law."
   },
   {
     "card_name": "Lucky Charm",
     "rarity": "Exceptional",
-    "type_text": "An Exceptional Relic of benison and boon\r\n",
+    "type_text": "An Exceptional Relic of benison and boon",
     "type": "Artifact",
     "subtype": "Relic",
     "rules_text": "Bearer's controller has \u201cWhenever you would determine an outcome at random, determine it an extra time and choose one.\u201d",
@@ -4995,7 +5288,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Maddening Bells",
@@ -5012,7 +5306,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "I can't hear myself think!"
   },
   {
     "card_name": "Magellan Globe",
@@ -5029,7 +5324,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Whatsoever turns all haste we tack, each the terrene through, our stars will cross anew."
   },
   {
     "card_name": "Magnetic Muzzle",
@@ -5046,7 +5342,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mask of Mayhem",
@@ -5063,7 +5360,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mix Aer",
@@ -5080,7 +5378,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mix Aqua",
@@ -5097,7 +5396,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mix Ignis",
@@ -5114,7 +5414,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mix Terra",
@@ -5131,7 +5432,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Onyx Core",
@@ -5148,7 +5450,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Orb of Ba'al Berith",
@@ -5165,7 +5468,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The ineffable, conveyed ineffably."
   },
   {
     "card_name": "Payload Trebuchet",
@@ -5182,7 +5486,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pendulum of Peril",
@@ -5199,12 +5504,13 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Philosopher's Stone",
     "rarity": "Unique",
-    "type_text": "\r\nA Unique Relic and magnum opus",
+    "type_text": "A Unique Relic and magnum opus",
     "type": "Artifact",
     "subtype": "Relic",
     "rules_text": "The first spell of each element cast by the bearer each turn costs \u2460 less.",
@@ -5216,7 +5522,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pnakotic Manuscript",
@@ -5233,7 +5540,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "An understanding so vast it leaves little room for sanity."
   },
   {
     "card_name": "Poisonous Dagger",
@@ -5250,7 +5558,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Scantest scratch fulfilled | Withal the strength of twenty | Shall thine heart be stilled"
   },
   {
     "card_name": "Purge Juggernaut",
@@ -5267,7 +5576,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Rolling Boulder",
@@ -5284,7 +5594,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ruby Core",
@@ -5301,7 +5612,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Scarecrow",
@@ -5309,7 +5621,7 @@
     "type_text": "A gaunt and ragged Ordinary Relic",
     "type": "Artifact",
     "subtype": "Relic",
-    "rules_text": "Genesis \u2192 Return each Airborne minion here to its owner\u2019s hand  Airborne minions can't enter this location.",
+    "rules_text": "Genesis \u2192 Return each Airborne minion here to its owner\u2019s hand. Airborne minions can't enter this location.",
     "cost": 2,
     "attack": -1,
     "life": -1,
@@ -5318,7 +5630,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Screaming Skull",
@@ -5335,7 +5648,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Seven-League Boots",
@@ -5352,7 +5666,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "\u201cBring me my boots at once, so that I may catch them!\u201c \u2014 Charles Perrault"
   },
   {
     "card_name": "Siege Ballista",
@@ -5369,7 +5684,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Spear of Destiny",
@@ -5386,7 +5702,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "Nor mortal's blood shall sate a hunger erst whetted by divine."
   },
   {
     "card_name": "Sunken Treasure",
@@ -5403,7 +5720,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "The Immortal Throne",
@@ -5420,7 +5738,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Torshammar Trinket",
@@ -5428,7 +5747,7 @@
     "type_text": "An Exceptional Relic of recurring force",
     "type": "Artifact",
     "subtype": "Relic",
-    "rules_text": "Bearer has +1 power At the end of your turn, return this to its owner\u2019s hand.",
+    "rules_text": "Bearer has +1 power. At the end of your turn, return this to its owner\u2019s hand.",
     "cost": 1,
     "attack": -1,
     "life": -1,
@@ -5437,7 +5756,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Truesight Crossbow",
@@ -5454,7 +5774,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Undertaker Engine",
@@ -5471,7 +5792,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Wicker Manikin",
@@ -5488,7 +5810,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "By twisted frame round willow's heart, let none disclaim my turner's art."
   },
   {
     "card_name": "Wings of Invention",
@@ -5505,7 +5828,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Cloud City",
@@ -5522,7 +5846,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Dark Tower",
@@ -5539,7 +5864,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Gothic Tower",
@@ -5556,7 +5882,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Lone Tower",
@@ -5573,7 +5900,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mountain Pass",
@@ -5590,7 +5918,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Observatory",
@@ -5607,7 +5936,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Updraft Ridge",
@@ -5624,7 +5954,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Watchtower",
@@ -5641,7 +5972,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Bedrock",
@@ -5658,7 +5990,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Gnome Hollows",
@@ -5675,7 +6008,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Holy Ground",
@@ -5692,7 +6026,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Humble Village",
@@ -5709,7 +6044,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Kingdom of Agartha",
@@ -5726,7 +6062,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pillar of Zeiros",
@@ -5743,7 +6080,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Quagmire",
@@ -5760,7 +6098,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Rift Valley",
@@ -5777,7 +6116,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Rustic Village",
@@ -5794,7 +6134,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Secret Tunnel",
@@ -5811,7 +6152,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Simple Village",
@@ -5828,7 +6170,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Vantage Hills",
@@ -5845,7 +6188,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Arid Desert",
@@ -5862,7 +6206,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Dwarven Forge",
@@ -5879,7 +6224,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mirage",
@@ -5896,7 +6242,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Red Desert",
@@ -5913,7 +6260,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Remote Desert",
@@ -5930,7 +6278,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "River of Flame",
@@ -5947,7 +6296,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Shifting Sands",
@@ -5964,7 +6314,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Smokestacks of Gnaak",
@@ -5981,7 +6332,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Vesuvius",
@@ -5998,7 +6350,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Autumn River",
@@ -6015,7 +6368,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Floodplain",
@@ -6032,7 +6386,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Iceberg",
@@ -6049,7 +6404,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Island Leviathan",
@@ -6066,7 +6422,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Maelstr\u00f6m",
@@ -6083,7 +6440,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Spring River",
@@ -6100,7 +6458,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Summer River",
@@ -6117,7 +6476,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Tadpole Pool",
@@ -6134,7 +6494,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Undertow",
@@ -6151,7 +6512,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Aqueduct",
@@ -6168,7 +6530,8 @@
       "earth": 1,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "Through brick and ashlar conduits flows the lifeblood of an empire."
   },
   {
     "card_name": "Lighthouse",
@@ -6185,7 +6548,8 @@
       "earth": 0,
       "fire": 0,
       "water": 1
-    }
+    },
+    "flavour_text": "A luminous pillar pierced the tempest, and we knew. All was not lost! We were home."
   },
   {
     "card_name": "Oasis",
@@ -6202,7 +6566,8 @@
       "earth": 0,
       "fire": 1,
       "water": 1
-    }
+    },
+    "flavour_text": "Where blood nourishes sand, life springs anew."
   },
   {
     "card_name": "Pristine Paradise",
@@ -6219,7 +6584,8 @@
       "earth": 1,
       "fire": 1,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Ruins",
@@ -6236,7 +6602,8 @@
       "earth": 0,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "What do lines on a map mean to the sand and the sun and the wind?"
   },
   {
     "card_name": "Steppe",
@@ -6253,7 +6620,8 @@
       "earth": 1,
       "fire": 1,
       "water": 0
-    }
+    },
+    "flavour_text": "There's beauty in the simplicity of empty horizons."
   },
   {
     "card_name": "The Colour Out of Space",
@@ -6270,7 +6638,8 @@
       "earth": 1,
       "fire": 1,
       "water": 1
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Windmill",
@@ -6287,7 +6656,8 @@
       "earth": 1,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": "The wind's wild words, in uncertain surges, whisper how the world was made."
   },
   {
     "card_name": "Astral Alcazar",
@@ -6304,7 +6674,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Battlefield",
@@ -6321,7 +6692,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Boneyard",
@@ -6338,7 +6710,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Bottomless Pit",
@@ -6355,7 +6728,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Cornerstone",
@@ -6372,7 +6746,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Crossroads",
@@ -6389,7 +6764,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Dome of Osiros",
@@ -6406,7 +6782,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Donnybrook Inn",
@@ -6423,7 +6800,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Edge of the World",
@@ -6440,7 +6818,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Free City",
@@ -6457,7 +6836,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Great Wall",
@@ -6474,7 +6854,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Imperial Road",
@@ -6491,7 +6872,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mirror Realm",
@@ -6508,7 +6890,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Mudflow",
@@ -6525,7 +6908,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Planar Gate",
@@ -6542,7 +6926,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Primordial Spring",
@@ -6559,7 +6944,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Roots of Yggdrasil",
@@ -6576,7 +6962,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sinkhole",
@@ -6593,7 +6980,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Standing Stones",
@@ -6610,7 +6998,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "The Geistwood",
@@ -6627,7 +7016,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Vaults of Zul",
@@ -6644,7 +7034,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Battlemage",
@@ -6661,7 +7052,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Deathspeaker",
@@ -6678,7 +7070,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Elementalist",
@@ -6686,7 +7079,7 @@
     "type_text": "Your Avatar of wonder and awe",
     "type": "Avatar",
     "subtype": "",
-    "rules_text": "Tap \u2192 Play or draw a site You have an additional (E)(F)(W)(A).",
+    "rules_text": "Tap \u2192 Play or draw a site. You have an additional (E)(F)(W)(A).",
     "cost": -1,
     "attack": 1,
     "life": 20,
@@ -6695,7 +7088,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Enchantress",
@@ -6712,7 +7106,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Pathfinder",
@@ -6729,7 +7124,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Seer",
@@ -6746,7 +7142,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sorcerer",
@@ -6763,7 +7160,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Sparkmage",
@@ -6780,7 +7178,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Geomancer",
@@ -6797,7 +7196,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Flamecaller",
@@ -6805,7 +7205,7 @@
     "type_text": "Your Avatar rises from the ashes to rule",
     "type": "Avatar",
     "subtype": "",
-    "rules_text": "Tap \u2192 Play or draw a site Tap, Banish all your dead fire minions \u2192 Shoot a projectile. It deals damage equal to to the sum of their (F).",
+    "rules_text": "Tap \u2192 Play or draw a site. Tap, Banish all your dead fire minions \u2192 Shoot a projectile. It deals damage equal to to the sum of their (F).",
     "cost": -1,
     "attack": 1,
     "life": 20,
@@ -6814,7 +7214,8 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   },
   {
     "card_name": "Waveshaper",
@@ -6831,6 +7232,7 @@
       "earth": 0,
       "fire": 0,
       "water": 0
-    }
+    },
+    "flavour_text": ""
   }
 ]

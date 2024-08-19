@@ -77,7 +77,8 @@ interface Card {
   cost: number,
   attack: number,
   life: number,
-  thresholds: Thresholds
+  thresholds: Thresholds,
+  flavour_text: string,
 };
 
 const NONE_CARD: Card = {
@@ -95,7 +96,8 @@ const NONE_CARD: Card = {
     earth: 0,
     fire: 0,
     water: 0
-  }
+  },
+  flavour_text: ''
 };
 
 const cardsToArray = (card: Card): any[] =>{
@@ -411,7 +413,15 @@ function App() {
   
   const rulesTextHint = (): string => {
     if(targetCard){
-      return "HINT: " + replaceAll(targetCard.rules_text, targetCard.card_name, "■".repeat(targetCard.card_name.length))
+      let hintText;
+      if(targetCard.rules_text !== ""){
+        hintText = replaceAll(targetCard.rules_text, targetCard.card_name, "■".repeat(targetCard.card_name.length));
+      }else if (targetCard.flavour_text !== ""){
+        hintText = replaceAll(targetCard.flavour_text, targetCard.card_name, "■".repeat(targetCard.card_name.length));
+      }else{
+        hintText = targetCard.type_text;
+      }
+      return "Hint: " + hintText;
     }
     return "No hint for today..."
   }

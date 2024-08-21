@@ -105,7 +105,7 @@
     margin-top: -30.5em;
   }
   #root{
-    margin: 200px auto;
+    margin: 275px auto;
   }
 }
   
@@ -176,19 +176,6 @@
   align-items: center;
   flex-wrap: wrap;
 
-}
-
-.suggestions-container{
-  position:absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
-  text-align: left;
-  border: 1px solid #ccc;
-  max-height: 5em;
-  overflow-y: auto;
 }
 
 a {

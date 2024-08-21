@@ -226,6 +226,8 @@ a {
 
 .card-image-popup img{
   position: fixed;
+  -webkit-transform: translateZ(1px);
+  transform: translateZ(1px);
   /* clip-path: inset(2.5% 30% 5% 3.125%); */
   /* height: auto; */
   /* object-fit: cover; */

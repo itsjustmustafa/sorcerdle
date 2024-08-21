@@ -472,18 +472,6 @@ function App() {
     </span>
     <div className='game'>
       <h1>Sorcerdle!</h1>
-      <span
-        className='card_image_mobile_modal'
-      >
-        {previewedCard.card_name !== "" && (
-          <img
-            className={'card_image_mobile card-preview ' + (previewedCard.type === "Site" ? 'site-img' : 'nonsite-img')}
-            src={getCardImageUrl(previewedCard.card_name)}
-            alt={previewedCard.card_name}
-            onClick={() => setPreviewedCard(NONE_CARD)}
-          />
-        )}
-      </span>
       <span className='input-container'>
       
       <Select className='guess-input' 
@@ -554,6 +542,16 @@ function App() {
         </tbody>
       </table>
       </div>
+            <span className='card_image_mobile_modal'>
+              {previewedCard.card_name !== "" && (
+                <img
+                  className={'card_image_mobile card-preview ' + (previewedCard.type === "Site" ? 'site-img' : 'nonsite-img')}
+                  src={getCardImageUrl(previewedCard.card_name)}
+                  alt={previewedCard.card_name}
+                  onClick={() => setPreviewedCard(NONE_CARD)}
+                />
+              )}
+            </span>
     </div>
     </>
   );

@@ -264,14 +264,21 @@ function App() {
     }
   };
 
+  const preloadCardImage = (card_name: string): void => {
+    const image_url = getCardImageUrl(card_name);
+    const img = new Image();
+    img.src = image_url;
+  }
 
   const handleSubmit = (e: { preventDefault: () => void; }):void => {
     e.preventDefault();
 
+    // try to find a card that matches what the user has submitted
     const guessedCard = cardsData.find( (card) => compareStrings(card.card_name, currentAnswer));
     if(guessedCard === undefined){
       return;
     }
+    // Check if you haven't already guessed the card
     if(!guesses.some( (guess) => guess.card.card_name === guessedCard.card_name)){
       const currentGuess: Guess = {
         card: guessedCard,
@@ -279,6 +286,8 @@ function App() {
         resultStyles: []
       };
       if(targetCard !== undefined){
+        // Its a new guess, so add it to the guesses list and preload the card image
+        preloadCardImage(guessedCard.card_name);
         setGuessResults(currentGuess, guessedCard, targetCard);
         setGuesses([currentGuess, ...guesses]);
         if(targetCard.card_name === guessedCard.card_name){

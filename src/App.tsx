@@ -314,6 +314,8 @@ function App() {
         }else if(guessedValue > targetValue){
           if(targetValue >= 0){
             emoji = " ⬇️";
+          }else{
+            emoji = " 🛇"
           }
           style = "wrong";
         }

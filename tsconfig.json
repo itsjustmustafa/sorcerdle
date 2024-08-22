@@ -9,6 +9,6 @@
     }
   ],
   "compilerOptions": {
-    "lib": ["ESNext.Array"]
+    "lib": ["ESNext.Array"],
   }
 }

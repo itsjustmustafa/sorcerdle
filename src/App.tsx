@@ -147,6 +147,9 @@ const cardKeywords = [
   "(E)",
   "(A)",
   "(W)",
+  "Carry",
+  "Carries",
+  "Carried"
 ]
 
 interface Guess {
@@ -358,6 +361,10 @@ function App() {
                   return thresCharToLogoMap("F", 0, {"width": "1em"});
                 case "(W)":
                   return thresCharToLogoMap("W", 0, {"width": "1em"});
+                case "Carry":
+                case "Carries":
+                case "Carried":
+                  return <>{"Carry"}</>
                 default:
                   return <>{elem}</>;
               }

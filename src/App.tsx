@@ -57,7 +57,16 @@ const stringToRarity = (str: string): Rarity => {
 };
 
 const getListOfKeywords = (card: Card): string[] => {
-  return consolidateAlikeKeywords(cardKeywords.filter( (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase())));
+  const kws = consolidateAlikeKeywords(cardKeywords.filter(
+    (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase())).toSorted(
+      (keywordA, keywordB) => {
+        const indexB = card.rules_text.toLowerCase().indexOf(keywordB.toLowerCase());
+        const indexA = card.rules_text.toLowerCase().indexOf(keywordA.toLowerCase());
+        return indexA - indexB;
+      }
+    ));
+  console.log(kws);
+  return kws;
 };
 
 function isFirstInstance<T>(value: T, index: number, array: T[]){
@@ -165,7 +174,9 @@ const cardKeywords = [
   "(W)",
   "Carry",
   "Carries",
-  "Carried"
+  "Carried",
+  "Nearby",
+  "Adjacent",
 ]
 
 interface Guess {
@@ -275,7 +286,7 @@ function App() {
           return ({card: card, score: 1});
         }
         return ({card:card, score:0});
-      }).sort((a, b) => b.score - a.score).filter(pair => pair.score > 0 ).map(pair => pair.card)
+      }).toSorted((a, b) => b.score - a.score).filter(pair => pair.score > 0 ).map(pair => pair.card)
 
       setSuggestions(filteredSuggestions);
     }else{
@@ -355,7 +366,7 @@ function App() {
       }else if (guessedValue instanceof Array && targetValue instanceof Array) {
         let style = "wrong";
         if(guessedValue.length == targetValue.length){
-          if(guessedValue.sort().join(",") === targetValue.sort().join(",")){
+          if(guessedValue.toSorted().join(",") === targetValue.toSorted().join(",")){
             style = "right";
           }
         }
@@ -368,6 +379,7 @@ function App() {
         currentGuess.resultTexts.push( <>
           {guessedValue.map( (elem) => {
             if(typeof elem == "string"){
+              console.log(elem);
               switch(elem){
                 case "(A)":
                   return thresCharToLogoMap("A", 0, {"width": "1em"});
@@ -390,7 +402,7 @@ function App() {
         const guessedList = thresholdAsList(guessedValue);
         const targetList = thresholdAsList(targetValue);
         if(guessedList.length == targetList.length){
-          if(guessedList.sort().join(",") === targetList.sort().join(",")){
+          if(guessedList.toSorted().join(",") === targetList.toSorted().join(",")){
             style = "right";
           }
         }

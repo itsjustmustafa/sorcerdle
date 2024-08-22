@@ -315,7 +315,7 @@ function App() {
           if(targetValue >= 0){
             emoji = " ⬇️";
           }else{
-            emoji = " 🚫"
+            // emoji = " 🚫"
           }
           style = "wrong";
         }

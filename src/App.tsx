@@ -57,8 +57,24 @@ const stringToRarity = (str: string): Rarity => {
 };
 
 const getListOfKeywords = (card: Card): string[] => {
-  return cardKeywords.filter( (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase()));
+  return consolidateAlikeKeywords(cardKeywords.filter( (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase())));
 };
+
+function isFirstInstance<T>(value: T, index: number, array: T[]){
+  return array.indexOf(value) === index;
+}
+
+const consolidateAlikeKeywords = (keywords: string[]) : string[] =>{
+  return keywords.map((value) => {
+    switch (value){
+      case "Carries":
+      case "Carried":
+        return "Carry"
+      default:
+        return value;
+    }
+  }).filter((value, index, array) => isFirstInstance(value, index, array));
+}
 
 interface Thresholds{
   air: number,
@@ -361,10 +377,6 @@ function App() {
                   return thresCharToLogoMap("F", 0, {"width": "1em"});
                 case "(W)":
                   return thresCharToLogoMap("W", 0, {"width": "1em"});
-                case "Carry":
-                case "Carries":
-                case "Carried":
-                  return <>{"Carry"}</>
                 default:
                   return <>{elem}</>;
               }

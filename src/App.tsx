@@ -58,7 +58,7 @@ const stringToRarity = (str: string): Rarity => {
 
 const getListOfKeywords = (card: Card): string[] => {
   const kws = consolidateAlikeKeywords(cardKeywords.filter(
-    (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase())).toSorted(
+    (keyword) => card.rules_text.toLowerCase().includes(keyword.toLowerCase())).sort(
       (keywordA, keywordB) => {
         const indexB = card.rules_text.toLowerCase().indexOf(keywordB.toLowerCase());
         const indexA = card.rules_text.toLowerCase().indexOf(keywordA.toLowerCase());
@@ -286,7 +286,7 @@ function App() {
           return ({card: card, score: 1});
         }
         return ({card:card, score:0});
-      }).toSorted((a, b) => b.score - a.score).filter(pair => pair.score > 0 ).map(pair => pair.card)
+      }).sort((a, b) => b.score - a.score).slice().filter(pair => pair.score > 0 ).map(pair => pair.card)
 
       setSuggestions(filteredSuggestions);
     }else{
@@ -366,7 +366,7 @@ function App() {
       }else if (guessedValue instanceof Array && targetValue instanceof Array) {
         let style = "wrong";
         if(guessedValue.length == targetValue.length){
-          if(guessedValue.toSorted().join(",") === targetValue.toSorted().join(",")){
+          if(guessedValue.sort().join(",") === targetValue.sort().join(",")){
             style = "right";
           }
         }
@@ -402,7 +402,7 @@ function App() {
         const guessedList = thresholdAsList(guessedValue);
         const targetList = thresholdAsList(targetValue);
         if(guessedList.length == targetList.length){
-          if(guessedList.toSorted().join(",") === targetList.toSorted().join(",")){
+          if(guessedList.sort().slice().join(",") === targetList.sort().slice().join(",")){
             style = "right";
           }
         }

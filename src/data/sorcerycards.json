@@ -7234,5 +7234,23 @@
       "water": 0
     },
     "flavour_text": ""
+  },
+  {
+    "card_name": "Craig Sumison",
+    "rarity": "Unique",
+    "type_text": "Principal/Director/Sales Representative",
+    "type": "Avatar",
+    "subtype": "",
+    "rules_text": "Tap \u2192 Play or draw a site. Tap \u2192 Draw a site.",
+    "cost": -1,
+    "attack": 1,
+    "life": 71,
+    "thresholds":{
+      "air": 0,
+      "earth": 0,
+      "fire": 0,
+      "water": 0
+    },
+    "flavour_text": ""
   }
 ]

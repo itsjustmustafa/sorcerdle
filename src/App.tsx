@@ -248,13 +248,39 @@ function App() {
     return <p>wtf bro</p>
   }
   
+  function getCardByName(card_name: string): Card{
+    const foundCard = cardsJson.find((card) => card.card_name === card_name);
+    if (foundCard !== undefined){
+      return foundCard;
+    }
+    return NONE_CARD;
+  }
   
   function getDailyCard():Card {
+
     const today = new Date();
     const year = today.getFullYear().toString();
     const month = today.getMonth().toString();
     const date = today.getDate().toString();
-    const hashed_index = simpleHash(`${year}/${month}/${date}withicons`) % cardsJson.length;
+    const isAprilFools = (month === "3") && (date === "1");
+    if(isAprilFools){
+      const craigCard = getCardByName("Craig Sumison");
+      if(craigCard.card_name !== ''){
+        return craigCard;
+      }
+    }
+    let hashExtension = "";
+    for(let i = 0; i < 10; i++){
+      const hashed_index = simpleHash(`${year}/${month}/${date}${hashExtension}`) % cardsJson.length;
+      const todaysCard = cardsJson[hashed_index];
+      if(todaysCard.card_name === "Craig Sumison"){
+        hashExtension += "!";
+      }else{
+        return todaysCard;
+      }
+    }
+    
+    const hashed_index = simpleHash(`${year}/${month}/${date}NotCraig`) % cardsJson.length;
     return cardsJson[hashed_index];
   }
 

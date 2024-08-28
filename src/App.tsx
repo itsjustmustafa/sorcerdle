@@ -65,7 +65,6 @@ const getListOfKeywords = (card: Card): string[] => {
         return indexA - indexB;
       }
     ));
-  console.log(kws);
   return kws;
 };
 
@@ -288,7 +287,6 @@ function App() {
     setCardsData(cardsJson);
     setTargetCard(getDailyCard());
     setTodayDate(new Date().toDateString());
-    // console.log("refrehsing component!");
   }, []);
   
   useEffect(() => {
@@ -405,7 +403,6 @@ function App() {
         currentGuess.resultTexts.push( <>
           {guessedValue.map( (elem) => {
             if(typeof elem == "string"){
-              console.log(elem);
               switch(elem){
                 case "(A)":
                   return thresCharToLogoMap("A", 0, {"width": "1em"});

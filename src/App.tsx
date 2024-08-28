@@ -536,7 +536,7 @@ function App() {
       <a href="https://github.com/itsjustmustafa/sorcerdle/#how-to-play" target="_blank">How To Play</a>
     </span>
     <div className='game'>
-      <h1>Sorcerdle!</h1>
+      <h1 id='title'>Sorcerdle!</h1>
       <span className='input-container'>
       
       <Select className='guess-input' 

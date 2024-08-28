@@ -312,7 +312,7 @@ function App() {
           return ({card: card, score: 1});
         }
         return ({card:card, score:0});
-      }).sort((a, b) => b.score - a.score).slice().filter(pair => pair.score > 0 ).map(pair => pair.card)
+      }).sort((a, b) => b.score < a.score ? -1 : (b.score > a.score ? 1 : b.card.card_name < a.card.card_name ? 1 : -1)).slice().filter(pair => pair.score > 0 ).map(pair => pair.card)
 
       setSuggestions(filteredSuggestions);
     }else{

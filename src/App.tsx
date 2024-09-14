@@ -270,7 +270,7 @@ function App() {
     }
     let hashExtension = "";
     for(let i = 0; i < 10; i++){
-      const hashed_index = simpleHash(`${year}/${month}/${date}${hashExtension}`) % cardsJson.length;
+      const hashed_index = simpleHash(`${year}/${month}/${date}${hashExtension}extrarandomtext`) % cardsJson.length;
       const todaysCard = cardsJson[hashed_index];
       if(todaysCard.card_name === "Craig Sumison"){
         hashExtension += "!";

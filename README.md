@@ -32,4 +32,4 @@ Comparing it to the target card: *Unland Angler*, we see that this is consistent
 <img src="unland_angler.png" alt="Unland Angler" style="width:200px"/>
 
 The full list of Keywords is as follows:
-*Airborne, Burrow, Genesis, Charge, Immobile, Disable, Lethal, Movement, Ranged, Spellcaster, Stealth, Submerge, Voidwalk, Landbound, Waterbound, Deathrite, Flood, Projectile, Carry, Nearby, Adjacent, Any mention of specific elemental threshold (eg. Ruby Core)*
+*Airborne, Burrow, Genesis, Charge, Immobile, Disable, Lethal, Movement, Ranged, Spellcaster, Stealth, Submerge, Voidwalk, Landbound, Waterbound, Deathrite, Flood, Projectile, Carry, Nearby, Adjacent, Target, Draw, Any mention of specific elemental threshold (eg. Ruby Core)*

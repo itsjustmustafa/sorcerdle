@@ -176,6 +176,8 @@ const cardKeywords = [
   "Carried",
   "Nearby",
   "Adjacent",
+  "Target",
+  "Draw",
 ]
 
 interface Guess {

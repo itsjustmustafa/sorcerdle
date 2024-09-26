@@ -545,8 +545,7 @@ function App() {
     </span>
     <div className='game'>
 
-      {isItCoolTime()==false && <h1 id='title'>Sorcerdle!</h1>}
-      {isItCoolTime() && <h1 id='title'><a href="https://github.com/itsjustmustafa/myresume/blob/main/README.md#mustafa-barodawala" target="_blank">Hi Cameron Click This!</a></h1>}
+      <h1 id='title'>Sorcerdle!</h1>
       <span className='input-container'>
       
       <Select className='guess-input' 

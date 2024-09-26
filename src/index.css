@@ -14,7 +14,7 @@
 }
 
 a:hover {
-  color: #535bf2;
+  color: #4b52df;
 }
 
 body {
@@ -28,6 +28,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h1 a{
+  color: #7379ea;
 }
 
 button {

@@ -527,6 +527,12 @@ function App() {
       </span>
     </span>
     );
+  
+  const isItCoolTime = ():boolean => {
+    const d = new Date();
+    const hour = d.getHours();
+    return hour == 20 || hour == 21;
+  }
 
   return (
     <>
@@ -538,7 +544,9 @@ function App() {
       <a href="https://github.com/itsjustmustafa/sorcerdle/#how-to-play" target="_blank">How To Play</a>
     </span>
     <div className='game'>
-      <h1 id='title'>Sorcerdle!</h1>
+
+      {isItCoolTime()==false && <h1 id='title'>Sorcerdle!</h1>}
+      {isItCoolTime() && <h1 id='title'><a href="https://github.com/itsjustmustafa/myresume/blob/main/README.md#mustafa-barodawala" target="_blank">Hi Cameron!</a></h1>}
       <span className='input-container'>
       
       <Select className='guess-input' 

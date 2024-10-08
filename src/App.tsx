@@ -518,7 +518,7 @@ function App() {
     <span className='win-container'>
       <p>🥳🎉You Won!!!💯🎊</p>
       <span className='share-button-container'>
-      <button onClick={copyShareToClipboard}>{shared? "Copied": "Share"}</button>
+      <button onClick={copyShareToClipboard} className='share-button' >{shared? "Copied": "Share"}</button>
       <button 
         className='small-hire-me'
         onClick={() => window.open('https://www.linkedin.com/in/mustafa-xyz/', '_blank')}

@@ -181,6 +181,7 @@ const cardKeywords = [
   "Adjacent",
   "Target",
   "Draw",
+  "Lance",
 ]
 
 interface Guess {

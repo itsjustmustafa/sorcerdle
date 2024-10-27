@@ -143,7 +143,8 @@ const cardsToArray = (card: Card): any[] =>{
 const attributeDisplayNames = [
   "Name",
   "Cost",
-  "Power",
+  "Attack",
+  "Defence",
   "Rarity",
   "Life",
   "Type(s)",

@@ -7,9 +7,9 @@ for file in ./card_data/*.json; do
   type: .pageProps.trpcState.json.queries[0].state.data.guardian.type,
   subtype: "",
   rules_text: .pageProps.trpcState.json.queries[0].state.data.guardian.rulesText,
-  cost: .pageProps.trpcState.json.queries[0].state.data.guardian.cost,
-  attack: .pageProps.trpcState.json.queries[0].state.data.guardian.attack,
-  defence: .pageProps.trpcState.json.queries[0].state.data.guardian.defence,
+  cost: (.pageProps.trpcState.json.queries[0].state.data.guardian.cost // 0),
+  attack: (.pageProps.trpcState.json.queries[0].state.data.guardian.attack // 0),
+  defence: (.pageProps.trpcState.json.queries[0].state.data.guardian.defense // 0),
   life: (.pageProps.trpcState.json.queries[0].state.data.guardian.life // -1),
   thresholds: {
     air: .pageProps.trpcState.json.queries[0].state.data.guardian.airThreshold,
@@ -65,7 +65,7 @@ jq --slurp 'map(
           {"keyword": "River", "condition": (.type_text // "") | contains("River")},
           {"keyword": "Tower", "condition": (.type_text // "") | contains("Tower")},
           {"keyword": "Village", "condition": (.type_text // "") | contains("Village")}
-        ] | map(select(.condition) | .keyword) | first)
+        ] | map(select(.condition) | .keyword) | first // "")
       )
       end)
   }

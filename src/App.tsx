@@ -100,6 +100,7 @@ interface Card {
   rules_text: string;
   cost: number,
   attack: number,
+  defence: number,
   life: number,
   thresholds: Thresholds,
   flavour_text: string,
@@ -114,6 +115,7 @@ const NONE_CARD: Card = {
   rules_text: '',
   cost: 0,
   attack: 0,
+  defence: 0,
   life: 0,
   thresholds: {
     air: 0,
@@ -129,6 +131,7 @@ const cardsToArray = (card: Card): any[] =>{
     card.card_name,
     card.cost,
     card.attack,
+    card.defence,
     stringToRarity(card.rarity),
     card.life,
     card.subtype === "" ? [card.type] : [card.type, card.subtype],
@@ -140,7 +143,8 @@ const cardsToArray = (card: Card): any[] =>{
 const attributeDisplayNames = [
   "Name",
   "Cost",
-  "Power",
+  "Attack",
+  "Defence",
   "Rarity",
   "Life",
   "Type(s)",
@@ -178,6 +182,7 @@ const cardKeywords = [
   "Adjacent",
   "Target",
   "Draw",
+  "Lance",
 ]
 
 interface Guess {

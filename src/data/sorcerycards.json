@@ -7252,5 +7252,4001 @@
       "water": 0
     },
     "flavour_text": ""
-  }
+  },
+  {
+    "card_name": "13 Treasures of Britain",
+    "rarity": "Unique",
+    "type_text": "A Unique collection of priceless Relics",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "When picked up, bearer's controller draws a card. Teleport the Treasures to the top of a random site or void.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "A Midsummer Night's Dream",
+    "rarity": "Unique",
+    "type_text": "A Unique Aura delights in man's misfortune",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "Mortals here are disabled and each give +1 power to all Faeries here. Dispel if there are no Faeries here.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Amulet of Niniane",
+    "rarity": "Unique",
+    "type_text": "A Unique Relic and wizardly ward",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Bearer can't be targeted or damaged by magic.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Annual Fair",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site of tradition and trade",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "(1) \u2192 Gain (A), (E), (F), or (W) this turn.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Arcane Barrage",
+    "rarity": "Elite",
+    "type_text": "A fierce flurry of Elite Magic",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shoot X projectiles in the same direction, one at a time. Each deals 1 damage.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 3,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Archimago",
+    "rarity": "Elite",
+    "type_text": "Your Avatar performs a smackdown of magic",
+    "type": "Avatar",
+    "subtype": "",
+    "rules_text": "Tap \u2192 Play or draw a site.\n\nBanish three magic spells in your cemetery \u2192 Cast a copy of one of them.",
+    "cost": null,
+    "attack": 1,
+    "life": 20,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Arc Lightning",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic of focused fulmination",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Deal 4 damage to target nearby unit.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Lightning obeyed olde Merlin\u2019s command,\nJustice conveyed unto noggin from hand."
+},
+{
+    "card_name": "Attack by Night",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic catches them unprepared",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Enemies drop their artifacts. Allied units strike first this turn.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Avalon",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of legendary wonder and grace",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Provides mana and threshold for everyone.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Babbling Brook",
+    "rarity": "Exceptional",
+    "type_text": "Be lulled to sleep by this Exceptional Site",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Until your next turn, minions are disabled while atop nearby sites.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Bailey",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Monument protects your home",
+    "type": "Artifact",
+    "subtype": "Monument",
+    "rules_text": "Enemies can't move to here on the ground.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "While chaos takes the world around, \nA wooden wall keeps safe and sound."
+},
+{
+    "card_name": "Ball Lightning",
+    "rarity": "Elite",
+    "type_text": "Elite Magic of peripatetic plasma",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shoot a projectile. It deals 4 damage on impact, then changes direction. Its next impact deals 2, then it changes direction. Its final impact deals 1.",
+    "cost": 5,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Band of Thieves",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Mortals with harmful ambitions",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Stealth",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "The darker the night, \nthe better to ply their crooked trade."
+},
+{
+    "card_name": "Beacon",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site alerts your forces",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Gain (1) for each nearby site with an enemy atop it.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Black Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal sides with the strong",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Costs (2) less to cast if you have more life than each opponent.",
+    "cost": 5,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Blacksmith Family",
+    "rarity": "Ordinary",
+    "type_text": "A skillful family of Ordinary Mortals",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Provides (F)",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Bluecap Knockers",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Faeries maintain these tunnels",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Burrowing\n\nBluecap Knockers\u2019 site can't be moved, destroyed, or modified.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Blue Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal swears a solemn vow",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "In silver and azure armor adorned, the knight rode forth, \na noble sentinel, radiating strength and chivalrous grace."
+},
+{
+    "card_name": "Blunderbore",
+    "rarity": "Unique",
+    "type_text": "A Unique Giant rings the dinner bell",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Allied Giants banish the minions they kill to permanently gain +1 power.",
+    "cost": 5,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "Blunderbore grinned, eyes gleaming in the night.\n\u201cEat we shall, my brother, with relish and delight!\u201d"
+},
+{
+    "card_name": "Bog",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site of moldering muck",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Until your next turn, units are Immobile while atop target nearby site.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Bonfire",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site of humanity restored",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 You may destroy all Weapons and Armor nearby.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Boudicca",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and revenging rebel",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Other allies have +3 power while successfully attacking sites.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 3,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Bower of Bliss",
+    "rarity": "Unique",
+    "type_text": "A Unique Site to forget your worldly worries",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Mortals in the realm become Beasts and are silenced.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Briar Patch",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site of painful passage",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Whenever an enemy unit enters or leaves this site, it takes 1 damage.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Broceliande",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of wondrous wilderness",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Untap nearby Faeries. Tap nearby Mortals. Give nearby Beasts Stealth.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Brother Knight",
+    "rarity": "Elite",
+    "type_text": "An Elite Mortal bound by blood",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Genesis \u2192 You may search your spellbook or hand for another Brother Knight and summon it here. Shuffle if needed.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Brown Bears",
+    "rarity": "Ordinary",
+    "type_text": "A territorial sloth of Ordinary Beasts",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Travel deep into the woods and you\u2019ll \nfind one of two things: peace or bears."
+},
+{
+    "card_name": "Burning Hands",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic of bilateral blaze",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "May be cast by an allied Mortal. Choose two different cardinal directions and deal damage to each unit at locations in the area of effect:",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Caerleon-Upon-Usk",
+    "rarity": "Unique",
+    "type_text": "A Unique Site and city of legions",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Only provides mana and threshold while in your back row.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Camelot",
+    "rarity": "Unique",
+    "type_text": "A Unique Site where kings hold court",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Unique minions cost (1) less to cast to nearby sites.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Cast into Exile",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic to expel the unwanted",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shuffle target minion occupying an allied site into its owner's spellbook.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cBut as for your son, Sir Uwaine, I hold him suspect, therefore I \ncharge you put him out of my court.\u201d \u2014 Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Castle Haunt",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Spirit haunts these halls",
+    "type": "Minion",
+    "subtype": "Spirit",
+    "rules_text": "May be cast to any Elite or Unique site.\n\nDies if it leaves its summoning site.",
+    "cost": 3,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Castle's Ablaze!",
+    "rarity": "Elite",
+    "type_text": "An Aura of Elite incendiarism",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "Conjure atop an Elite or Unique site.\n\nAt the start of your turn, destroy this site, minions atop it, and Castle's Ablaze.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Castle Servants",
+    "rarity": "Ordinary",
+    "type_text": "A duteous family of Ordinary Mortals",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Provides (A)",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Charge",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic of unexpected assault",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Give an ally Charge this turn.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Cold Iron Rod",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Relic to repel the fae",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Faeries here are disabled.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "If a circle is traced with iron, or a pointed weapon \nis carried three times round them, it will preserve \nboth infant and adult from all unseelie influence."
+},
+{
+    "card_name": "Common Cottagers",
+    "rarity": "Ordinary",
+    "type_text": "A humble family of Ordinary Mortals",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Provides (E)",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Common Village",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site of fruitfulness",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 You may pay (1) to summon a Foot Soldier token here.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Coy Nixie",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Merfolk of comely appearance",
+    "type": "Minion",
+    "subtype": "Merfolk",
+    "rules_text": "Submerge\n\nOnce on your turn, Coy Nixie may force target nearby enemy to take a step towards her. Tap that enemy.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Cursed Land",
+    "rarity": "Elite",
+    "type_text": "An Elite Site that radiates malice",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Whenever another site is played nearby, its controller loses 2 life.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Dame Britomart",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal on a rescue mission",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance\n\nIf Dame Britomart would successfully attack an enemy site, she may summon a Mortal from your cemetery to her location instead.",
+    "cost": 5,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Degradation",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic strips rank and title",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Transform a Mortal into a Foot Soldier token.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "\u201cWhy, without your arms and armor, without the trappings \nof nobility, you are nothing more than a miserable man.\u201d"
+},
+{
+    "card_name": "Dirium Fomorians",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Giants reclaim their realm",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Burrowing, Submerge",
+    "cost": 7,
+    "attack": 6,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "They roam the lands of men once more, \nfor tribute and the sport of war."
+},
+{
+    "card_name": "Dozmary Pool",
+    "rarity": "Unique",
+    "type_text": "A Unique Site where relics are lost and found",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "(W)(W)(W) \u2013 Genesis \u2192 You may submerge an artifact from your hand here.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Druid",
+    "rarity": "Elite",
+    "type_text": "Your Avatar watches over this domain",
+    "type": "Avatar",
+    "subtype": "",
+    "rules_text": "Tap \u2192 Play or draw a site. If you played a site and you don't control Tawny, summon her there.\n\nTap \u2192 Summon Bruin here. Flip this card.",
+    "cost": null,
+    "attack": 1,
+    "life": 20,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Duel",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic throws down the gauntlet",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "An ally fights target enemy adjacent to it.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cAnd there was the most mightiest battle that \never was seen in this land betwixt two knights.\u201d \n\u2014Edmund Spenser, The Faerie Queene"
+},
+{
+    "card_name": "Excalibur",
+    "rarity": "Unique",
+    "type_text": "A Unique Weapon grants strength to the worthy",
+    "type": "Artifact",
+    "subtype": "Weapon",
+    "rules_text": "Bearer has +1 power for each of their elements. If they have all four, they are also immune to damage.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fae City",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site of itsy-bitsy bombardment",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Tap an allied Faerie here \u2192 Shoot a projectile. It deals 1 damage.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fail-not Bow",
+    "rarity": "Unique",
+    "type_text": "A Unique Weapon of peerless precision",
+    "type": "Artifact",
+    "subtype": "Weapon",
+    "rules_text": "Bearer has Ranged 3.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "No sooner had his fingers left that enchanted \nstring than the arrow struck its mark."
+},
+{
+    "card_name": "Feast for Crows",
+    "rarity": "Unique",
+    "type_text": "Unique Magic of lost legacy",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Name a spell. Search an opponent's hand, spellbook and cemetery for cards with that name, and banish them. They shuffle.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Field Laborers",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Mortals bring in the harvest",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Tap \u2192 Gain (2) this turn.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fields of Camlann",
+    "rarity": "Unique",
+    "type_text": "A Unique Site where fates are sealed",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "(F)(F)(F) \u2013 Genesis \u2192 Each player chooses one of their minions. Kill the rest.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fine Courser",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Beast in need of a rider",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Charge, Movement +1\n\nMay carry an ally.",
+    "cost": 2,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Finwife",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Merfolk seeks a suitor",
+    "type": "Minion",
+    "subtype": "Merfolk",
+    "rules_text": "Submerge\n\nProvides (2) for each nearby enemy Avatar.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "Such a devoted wife, in fair tide and foul."
+},
+{
+    "card_name": "Firebreathing",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic of explosive exhalation",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "May be cast by an allied Beast or Dragon. Choose a cardinal direction and deal damage to each unit at a location in the area of effect:",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fisherman's Family",
+    "rarity": "Ordinary",
+    "type_text": "A patient family of Ordinary Mortals",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Provides (W)",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Forge",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site of capable craftsmanship",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 You may pay (1) to conjure a Lance token here.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Fourberie Knot",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Relic of intricate trickery",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Bearer minion takes no damage from units with 4 or more power, and is also a Faerie.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Four Waters of Paradise",
+    "rarity": "Unique",
+    "type_text": "A Unique Relic of honey, milk, water, and wine",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Sacrifice Four Waters \u2192 This turn, bearer's next elemental spell requires no threshold and costs (4) less to cast.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Frisky Red Squirrel",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Beast prepares for winter",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Genesis \u2192 Take target nearby artifact that can be carried and hide it beneath this site.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Funeral Pyre",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site of final mourning",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Banish up to three cards from one cemetery.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Giant Killer",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal sizes up the enemy",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Genesis \u2192 Kill target nearby Giant.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "If I have seen farther than others, \nit is by sitting on the cheeks of giants."
+},
+{
+    "card_name": "Glastonbury Tor",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of myth and mysticism",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Only provides mana and threshold while in your back row.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Golden Harp",
+    "rarity": "Elite",
+    "type_text": "An Elite Instrument to soothe and beguile",
+    "type": "Artifact",
+    "subtype": "Instruments",
+    "rules_text": "Strike damage and life loss caused by nearby units is reduced to 2.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Goswhit Helmet",
+    "rarity": "Elite",
+    "type_text": "Elite Armor absorbs the blow",
+    "type": "Artifact",
+    "subtype": "Armor",
+    "rules_text": "If bearer would take strike damage, prevent it and return this helmet to hand.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Strike me once, shame on you. Strike me twice, shame on me."
+},
+{
+    "card_name": "Grain Sparrow",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Beast leads the dawn chorus",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Airborne\n\nGenesis \u2192 Gain 2 life.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Grand Old Boar",
+    "rarity": "Elite",
+    "type_text": "An Elite Beast of gnarled tusk",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Has Charge if there are dead Squeakers.",
+    "cost": 5,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 3,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Bull-huge in the mists of the morn; what an impressive sight!\nMy quarry\u2014with eyes ablaze for vengeance in the fight;\nRunning in fear, I glanced over my shoulder once more,\nI tumbled, A final glimpse; the eyes of the Grand Old Boar."
+},
+{
+    "card_name": "Grievous Insult",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic of cutting words",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "May be cast by any ally. Silence target nearby minion this turn and tap it. Draw a spell.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "\u201cThou cream-faced loon\u201d \u2014Macbeth (Act 5, Scene 3)"
+},
+{
+    "card_name": "Grim Guisarme",
+    "rarity": "Elite",
+    "type_text": "An Elite Weapon of equal execution",
+    "type": "Artifact",
+    "subtype": "Weapon",
+    "rules_text": "Bearer takes and deals double strike damage.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "An evil head it had, four feet large, no less, sharply ground, and bound to the handle by the lace that gleamed brightly."
+},
+{
+    "card_name": "Guards!",
+    "rarity": "Elite",
+    "type_text": "Elite Magic calls for aid",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Summon a Foot Soldier token to each site near your Avatar.",
+    "cost": 6,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Hamlet",
+    "rarity": "Ordinary",
+    "type_text": "A Site where Ordinary families thrive",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Ordinary minions cost (1) less to cast to this site.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Hamlet's Ablaze!",
+    "rarity": "Ordinary",
+    "type_text": "An Aura of Ordinary arson",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "Conjure atop an Ordinary or Exceptional site.\n\nAt the start of your turn, destroy this site, minions atop it, and Hamlet's Ablaze.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Harassing Ruffians",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Mortals looking for trouble",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Units attacked by Harrassing Ruffians can't be defended.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Helpful Hob",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Faerie does the job for you",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Genesis \u2192 Untap an adjacent ally.",
+    "cost": 4,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "\"Up the airy mountain, Down the rushy glen, We daren\u2019t go a-hunting For fear of little men; Wee folk, good folk, Trooping \nall together; Green jacket, red cap, And white owl\u2019s feather!\"\n\u2014 William Allingham, the Faeries"
+},
+{
+    "card_name": "Horn of Caerleon",
+    "rarity": "Elite",
+    "type_text": "An Elite Instrument sounds. The battle begins!",
+    "type": "Artifact",
+    "subtype": "Instruments",
+    "rules_text": "Nearby minions have Charge.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "From the western hills, a great blast was heard and all at \nonce a wave of spear and banner poured over the horizon."
+},
+{
+    "card_name": "Hunter's Lodge",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site, surrounded by snares",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Enemies lose Stealth.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Hunting Party",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Mortals sound the horn",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Ranged\n\nNearby enemies lose Stealth.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Among patricians, hunting vastly surpasses all of jousting, feasting, dancing, gaming, and polite conversation in money and effort spent."
+},
+{
+    "card_name": "Hyter Sprites",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Faeries stare into your soul",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Genesis \u2192 Name a spell. Spells with that name can\u2019t be cast until your next turn.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Impenetrable Copse",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site blocks all from view",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Projectiles can't enter this site from the outside.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Invasion",
+    "rarity": "Elite",
+    "type_text": "An Elite Aura overwhelms an empire",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "At the end of your turn, summon a \nFoot Soldier token to each affected enemy site with no units. Lasts 3 of your turns.",
+    "cost": 6,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Iron Man Talus",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Automaton with a will of iron",
+    "type": "Artifact",
+    "subtype": "Automaton",
+    "rules_text": "Can't be disabled or moved by force.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cHis name was Talus, made of yron mould, \nImmoueable, resistlesse, without end.\u201d\n\u2014Edmund Spenser, The Faerie Queene"
+},
+{
+    "card_name": "Joust!",
+    "rarity": "Ordinary",
+    "type_text": "A thunderous clash of Ordinary Magic",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "An ally targets an enemy they\u2019re adjacent to, then they both take a step to swap places. If they pass each other, they fight.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Joyous Garde",
+    "rarity": "Unique",
+    "type_text": "A Unique Site and seat of courtly love",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Only provides mana and threshold while in your back row.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Just a Rock",
+    "rarity": "Ordinary",
+    "type_text": "The most Ordinary Relic you've ever seen",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "May be cast into the hands of any unit already carrying an artifact to banish that artifact.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Keening Banshee",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Spirit of sorrow and regret",
+    "type": "Minion",
+    "subtype": "Spirit",
+    "rules_text": "May be cast for (0) if an allied Mortal died this turn.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Kelp Cavern",
+    "rarity": "Elite",
+    "type_text": "An Elite Site where memories resurface",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Look at your bottom three spells. Put one on top of your spellbook.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Kettletop Leprechaun",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Faerie with a cache of coin",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Deathrite \u2192 Draw a site.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201c\u2018My purse?\u2019 said he, \u2018\u2019tis in her hand, That lady by your side.\u2019 I turned \nto look, the elf was off, And what was I to do? Oh! I laughed to think \nwhat a fool I\u2019d been, And, the fairy was laughing too.\u201d \u2014 Robert Joyce"
+},
+{
+    "card_name": "King Arthur",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and king of kings",
+    "type": "Minion",
+    "subtype": "Mortal, Royalty",
+    "rules_text": "Players can't control cards owned by other players.",
+    "cost": 4,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": "Death is welcome when it comes; but to yield\u2014never!"
+},
+{
+    "card_name": "King's Council",
+    "rarity": "Elite",
+    "type_text": "Elite Magic, the gathering of noble minds",
+    "type": "Magic",
+    "subtype": "Royalty",
+    "rules_text": "Draw a card for each Unique ally.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "What dire tidings cannot be forestalled,\nby assembly of the cunning and the bold?"
+},
+{
+    "card_name": "Kingswood Poachers",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Mortals running from the law",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Stealth\n\nGenesis \u2192 Search a spellbook for up to three Beasts, banish them, then shuffle.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Knighthood",
+    "rarity": "Exceptional",
+    "type_text": "Magic to find the Exceptional among us",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "If you control an Ordinary Mortal, you may summon a Knight, Sir, or Dame from your hand to their location.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Lady Iseult",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and unparalleled healer",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "If another nearby allied minion would die, return it to hand.",
+    "cost": 2,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Then the king for great favour made Tristan to be put in his daughter\u2019s ward for keeping, because she was a noble surgeon."
+},
+{
+    "card_name": "Lake Afanc",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Beast lurks at water's edge",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Lethal, Submerge",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "With a roar, it leapt straight into the deep blue \nwater that was to become its new home."
+},
+{
+    "card_name": "Lava Flow",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic of molten animosity",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Lava flows from the caster's site in a cardinal direction. Deal damage to each other unit occupying a site in the area of effect:",
+    "cost": 5,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Led Astray",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic distracts the unwary",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Choose any number of enemies at target location. They take a step together to another location they're adjacent to.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Leyline Henge",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site marks the passing seasons",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Draw a spell for each other adjacent Leyline Henge.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Lookout",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site warns of what's to come",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Look at each opponent's hand.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Love Potion",
+    "rarity": "Elite",
+    "type_text": "An Elite Potion of blind devotion",
+    "type": "Artifact",
+    "subtype": "Potion",
+    "rules_text": "Bearer has \"Sacrifice Love Potion \u2192 Gain control of target enemy minion here until this unit leaves the realm.\"",
+    "cost": 6,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Lugbog Cat",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Beast of menacing might",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Can and must be cast to any water site.",
+    "cost": 3,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "\"Who pierced the Cath Palug? Nine score before dawn. \nWould fall for its food. Nine score chieftains.\" \n\u2014The Black Book of Carmarthen"
+},
+{
+    "card_name": "Lumbering Giant",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Giant of ponderous pace",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Can't defend or intercept.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "\u201cFee! Fie! Foe! Fum! I smell the blood of an Englishman. \nBe he \u2018live, or be he dead, I\u2019ll grind his bones to make my bread.\u201d"
+},
+{
+    "card_name": "Magic Missiles",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic of arcane arrows",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shoot three projectiles in the same direction, one at a time. Each deals 1 damage.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Major City",
+    "rarity": "Elite",
+    "type_text": "A Site where the Elite congregate",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Elite minions cost (1) less to cast to this site.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Merlin",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal of arcane acuity",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Spellcaster\n\nAny time during your turn, Merlin may look at your next spell and may cast it if it's a magic spell.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 3,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Merlin's Staff",
+    "rarity": "Unique",
+    "type_text": "A Unique Weapon to turn will into power",
+    "type": "Artifact",
+    "subtype": "Weapon",
+    "rules_text": "Bearer has Spellcaster and +1 power for each magic spell they've cast this turn while holding Merlin's Staff.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Merlin's Tower",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of arcane knowledge",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "(A)(A)(A) \u2013 Genesis \u2192 This turn, gains Spellcaster and its next magic costs (3) less.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Mesmerism",
+    "rarity": "Unique",
+    "type_text": "Unique Magic to change one's mind",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Gain control of target nearby minion.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 4
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Mester Stoor Worm",
+    "rarity": "Elite",
+    "type_text": "An Elite Beast of tidal terror",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Submerge, Waterbound\n\nTap \u2192 Choose a direction from Mester Stoor Worm. Deal Lethal damage to each unit at a location in the area of effect:",
+    "cost": 6,
+    "attack": 7,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 3
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Monstrous Lion",
+    "rarity": "Elite",
+    "type_text": "An Elite Beast pounces upon its prey",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Charge, Can't attack sites",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "A mighty roar echoed with unbridled rage. \nThe once captive beast was on the hunt!"
+},
+{
+    "card_name": "Morgana le Fay",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal keeps her cards close",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Spellcaster, Stealth\n\nGenesis \u2192 Morgana draws her own hand of three spells, which only she can cast.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 3,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Muirid Fomorians",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Giants return from the underworld",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Burrowing, Submerge",
+    "cost": 7,
+    "attack": 6,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "From under worlds of men they come, \nto see the age of men undone."
+},
+{
+    "card_name": "Nelly Longarms",
+    "rarity": "Unique",
+    "type_text": "A Unique Faerie with a murderous reach",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Submerge\n\nTap \u2192 Shoot a projectile. If it hits a unit, drag it here. Nelly may submerge it.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Ominous Owl",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Beast or dark omen?",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Airborne\n\nYou may cast minions to this site.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Overbearing Bailiff",
+    "rarity": "Elite",
+    "type_text": "An Elite Mortal, finally in charge",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Has +7 power while in your back row and no royalty is nearby.",
+    "cost": 3,
+    "attack": 0,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cDon\u2019t you know who I am?!\u201d"
+},
+{
+    "card_name": "Peasant Revolt",
+    "rarity": "Unique",
+    "type_text": "Unique Magic to level the playing field",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Destroy everything Unique or Elite in the realm.",
+    "cost": 5,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 3,
+        "water": 0
+    },
+    "flavour_text": "\u201cI exhort you to consider that now the time is come, appointed \nto us by God, in which ye may cast off the yoke of bondage, and recover liberty.\u201d \u2014John Ball, 1381"
+},
+{
+    "card_name": "Pebbled Paths",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site where travels stall",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Minions atop nearby sites lose Charge.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Pendragon Banner",
+    "rarity": "Elite",
+    "type_text": "An Elite Relic inspires the chivalrous",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Nearby allies have +1 power while there are no enemies here.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Pendragon Legacy",
+    "rarity": "Unique",
+    "type_text": "The Unique Magic of enduring stories",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shuffle any number of Unique cards from your cemetery into your decks. Draw a card.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cAs quoth the lion to the mouse,\u201d The man said; \u201cin King Arthur\u2019s House Men are not names of men alone, But coffers rather of deeds done.\u201d \n\u2014Edmund Spenser, The Faerie Queene"
+},
+{
+    "card_name": "Perilous Bridge",
+    "rarity": "Elite",
+    "type_text": "An Elite yet incomplete Site",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Units can\u2019t traverse this site\u2019s top border on the ground.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Pigs of the Sounder",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Beasts trampling turf",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Deathrite \u2192 Reveal your next five spells, then summon all Grand Old Boars from among them to this site. Put the rest on the bottom in a random order.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Poisoned Well",
+    "rarity": "Exceptional",
+    "type_text": "Don't drink the water at this Exceptional Site",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Enemy Avatars lose 1 life for each nearby site they control.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Pond",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site ripples gently to a calm sip",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 This turn, the next Beast cast to this site costs (1) less, ignoring threshold.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Pookas",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Faeries of mischief and malady",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Deathrite \u2192 Each opponent discards a random card.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Postern Gate",
+    "rarity": "Elite",
+    "type_text": "An Elite Site and surprising angle of attack",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Enters the realm under an opponent's control.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Power of Flight",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic takes you to the sky",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Give an allied minion Airborne until your next turn. Draw a spell.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Purple Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal swears a dauntless vow",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": "Veiled in deepest violet, the knight embarked on a \nnoble quest. Chivalric exploits lay on the horizon!"
+},
+{
+    "card_name": "Queen Guinevere",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal, fairest in the land",
+    "type": "Minion",
+    "subtype": "Mortal, Royalty",
+    "rules_text": "Once on your turn, Queen Guinevere may untap target allied minion.",
+    "cost": 4,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": "Guinevere bestows wonder upon young \nand old, low-born and high-born alike."
+},
+{
+    "card_name": "Questing Beast",
+    "rarity": "Unique",
+    "type_text": "A Unique Beast, eternally hunted",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Lethal, Stealth\n\nAt the end of your turn, Questing Beast may take a step.",
+    "cost": 5,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Rebecks",
+    "rarity": "Unique",
+    "type_text": "A Unique Giant spoiling for a fight",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Nearby allied Giants have Charge.",
+    "cost": 5,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "Rebecks rumbled, his voice a thunderous roar, \n\u201cBlunderbore, my friend, hunger grips me to the core!\u201d"
+},
+{
+    "card_name": "Reckless Squire",
+    "rarity": "Ordinary",
+    "type_text": "This Ordinary Mortal is all too eager",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Charge, Lance",
+    "cost": 3,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Redbreast Robin",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Beast kindles a blaze",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Airborne\n\nAt the end of your turn, each other unit here takes 1 damage.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Redcap Powries",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Faeries of blood-sought fury",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Charge\n\nIf Redcap Powries haven't attacked by the end of your turn, they die.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Rescue",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic returns those we thought lost",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Return a minion from your cemetery to your hand.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cWhen Britomart him saw, she ran apace Unto his reskew, \nand with earnest cry Bade the six knights forbeare that place.\u201d \n\u2014Edmund Spenser, The Faerie Queene"
+},
+{
+    "card_name": "Rhitta Gawr of Snowdonia",
+    "rarity": "Unique",
+    "type_text": "Bow, lest ye enrage this Unique Giant",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Other minions can't untap.",
+    "cost": 6,
+    "attack": 6,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 3,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Rhongomyniad",
+    "rarity": "Unique",
+    "type_text": "A Unique Weapon pierces the pernicious",
+    "type": "Artifact",
+    "subtype": "Weapon",
+    "rules_text": "Bearer strikes first and has \"Tap \u2192 Throw Rhongomyniad as a piercing projectile. It deals 3 damage to one other unit at each location along its path.\u201d",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Ribble Boggart",
+    "rarity": "Elite",
+    "type_text": "An awfully unpredictable Elite Faerie",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "At the start of your turn, Boggart gains a random mutation until the end of turn: Airborne, Ranged, Lethal, or +3 power.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Ring of Morrigan",
+    "rarity": "Unique",
+    "type_text": "A Unique Relic of deathly fate",
+    "type": "Artifact",
+    "subtype": "Relic",
+    "rules_text": "Bearer has \"Whenever this unit casts a spell, they may deal 1 damage to target nearby unit to have you gain 1 life.\"",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Salmon of Knowledge",
+    "rarity": "Elite",
+    "type_text": "An Elite Beast offers elusive insight",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Submerge, Waterbound\n\nOther units at this site have \"Tap \u2192 Roll a d20. On a 14+, banish Salmon of Knowledge and draw three spells.\"",
+    "cost": 3,
+    "attack": 0,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Saracen Raiders",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Mortals exploit the flanks",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Charge \n\nMay be cast to any site without enemies.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Saracen Scout",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal scans the horizon",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "May be cast to any site without enemies.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": "We arrive swifter than destiny\u2019s decree, \nRiding early and light, harbingers are we. \nPale Kings of Albion, beware!"
+},
+{
+    "card_name": "Seelie Court",
+    "rarity": "Elite",
+    "type_text": "A benevolent forum of the Faerie Elite",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "At the start of your turn, players draw a spell for each Faerie in the realm.",
+    "cost": 6,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "From faeborn folk, this tribute bespoke."
+},
+{
+    "card_name": "Shameless Squire",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal takes any advantage",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Lance\n\nGenesis \u2192 Tap target nearby enemy. It drops everything it's carrying.",
+    "cost": 3,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Shapeshift",
+    "rarity": "Elite",
+    "type_text": "Elite Magic of capricious change",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "An allied minion tries to transform. Look at your next five spells: you may choose a minion among them to be the new form. Put the rest on the bottom in a random order.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Shatter Strike",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic to sunder defenses",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "An ally targets an enemy adjacent to them, destroying an artifact they're carrying and then striking them.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Shellycoat",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Faerie of noisome hide",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Submerge\n\nTakes 1 less damage.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "\"Shelly-coat! Shelly-coat! Away to yer home! \nI seek not yer mercy, nor fear I yer name.\""
+},
+{
+    "card_name": "Sherwood Huntress",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal who lives off the land",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Ranged",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201c[They] passed into eclipse, Her kiss upon their lips\u2014\nEven Belphoebe\u2019s, whom they gave their lives for!\u201d \n\u2014Kipling, The Queen\u2019s Men"
+},
+{
+    "card_name": "Siege Giant",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Giant takes aim",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Once on your turn, Siege Giant may throw a weaker ally here through the air to a nearby location.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Agravaine",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal seeks strength in numbers",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Stealth, Movement +1\nWhenever another ally attacks an enemy adjacent to Sir Agravaine, he strikes that enemy afterwards without losing Stealth.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Balin",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal delivers a dolorous stroke",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance\n\nWhenever Sir Balin strikes an Avatar, destroy that Avatar's site then burrow other minions and artifacts there.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Bedivere",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and bearer of precious things",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "If Sir Bedivere is carrying an artifact at the start of your turn, draw a card.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Bors the Younger",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and accomplished hunter",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Ranged 2\n\nEnemies lose Stealth.",
+    "cost": 3,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Gaheris",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal, ever vigilant",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance\n\nUntaps at the end of your turn.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Galahad",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal with an unshakable faith",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Sir Galahad's strikes heal you.\n\nNearby allies take no damage from Demons, Spirits, and Undead.",
+    "cost": 5,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Gareth",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal disguised as a commoner",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "(A)(W) \u2014 Reveal from hand \u2192 Transform an allied Mortal into Sir Gareth.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Gawain",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal devoted to his duty",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Sir Gawain takes damage for other adjacent allies. If he dies from damage taken this way, draw a card.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Ironside",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal with the strength of seven men",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Has +3 power during enemy turns.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "\u201cThen Sir Ironside waxed wroth and doubled his strokes, and hurt Beaumains wonderly sore, that the blood ran down to the ground.\u201d \u2014Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Sir Kay",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal that punches down",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Whenever Sir Kay targets a weaker minion, he untaps.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "\u201cAnon Sir Kay ran unto the fifth king, and smote him so hard on the helm that the stroke clave the helm and head to the earth.\u201d \u2014 Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Sir Lamorak",
+    "rarity": "Unique",
+    "type_text": "This Unique Mortal's death will be avenged!",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Deathrite \u2192 Strike each nearby enemy.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": "\u201cAnd they lashed all at once to Sir Lamorak, but anon at two \nstrokes Sir Lamorak had slain two of them, and the other two fled.\u201d \n\u2014 Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Sir Lancelot",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal fights in the queen's name",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance\n\nThe first time Sir Lancelot fights each turn, untap him.",
+    "cost": 6,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Mordred",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal and pretender to the throne",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Genesis & Deathrite \u2192 Kill target adjacent enemy minion.",
+    "cost": 6,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Morien",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal strikes arrows in flight",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Genesis \u2192 Summon two Foot Soldier tokens here.\n\nEnemy projectiles can't enter here.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Pelleas",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal transformed by Faerie love",
+    "type": "Minion",
+    "subtype": "Faerie, Knight, Mortal",
+    "rules_text": "Submerge\n\nMoves freely between water locations.",
+    "cost": 3,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Pellinore",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal, always on the hunt",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Charge, Lance\n\nWhenever Sir Pellinore kills the strongest enemy minion, draw a card.",
+    "cost": 6,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Perceval",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal, destined for adventure",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Genesis \u2192 An opponent chooses a site.\n\nWhen Sir Perceval enters that site, draw a card, then reactivate his Genesis ability.",
+    "cost": 4,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Priamus",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal of healing and harm",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance, Lethal\n\nNearby allies are immune to Lethal.",
+    "cost": 4,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Tom Thumb",
+    "rarity": "Unique",
+    "type_text": "A Unique Faerie makes a lucky escape",
+    "type": "Minion",
+    "subtype": "Faerie, Knight",
+    "rules_text": "May be carried by any Beast.\n\nDeathrite \u2192 Return to hand.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sir Tristan",
+    "rarity": "Unique",
+    "type_text": "A dashing Mortal of Unique charisma",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Once on your turn, Sir Tristan may tap target nearby enemy minion. That enemy doesn't untap the next time it would.",
+    "cost": 5,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": "\u201cTristan cast great love to Iseult, and there he learned her to harp, and \nshe began to have a great fantasy unto him.\u201d \u2014Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Sir Yvain",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal with a bestial bond",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance. Genesis \u2192 Choose an allied Beast.\n\nSir Yvain and his Beast companion have +2 power while adjacent to each other.",
+    "cost": 5,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sisters of Avalon",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Mortals who shape the future",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Spellcaster\n\nGenesis \u2192 Discard a spell. Draw a spell.",
+    "cost": 2,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sly Fox",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Beast slips from sight",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Gains Stealth at the end of your turn.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "\u201cThen the old man got up in his cap, And swore he would catch \nthe fox in a trap; But the fox was too cunning, and gave him the \nslip, And ran through the town, the town, e-ho!\u201d"
+},
+{
+    "card_name": "Snowball",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic picks up speed",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Shoot a piercing projectile. It picks up all other units along its path and carries them with it. When it stops, units there take damage equal to the number of units in the snowball.",
+    "cost": 5,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Spearmarshal",
+    "rarity": "Elite",
+    "type_text": "An Elite rider rallies Mortals to his side",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Once on your turn, Spearmarshal may acquire a Lance token.",
+    "cost": 5,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Squeakers",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Beasts with room to grow",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Deathrite \u2192 Reveal your next five spells, then summon all Pigs of the Sounder from among them to this site. Put the rest on the bottom in a random order.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Stone Rain",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic pelts down from above",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Target a site up to two steps away. Deal 1 damage to everything atop it, repeating for each site in your hand.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Sugarplum Pixies",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Faeries distilling elixir",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Airborne\n\nAt the end of your turn, untap another nearby ally.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Swindler Troupe",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Mortals practice misdirection",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Genesis \u2192 Give another nearby allied minion Stealth.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": "\u201cOh, noble guard, I could really use your help... over there.\u201d"
+},
+{
+    "card_name": "Sword and Shield",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional pairing of Weapon and Armor",
+    "type": "Artifact",
+    "subtype": "Armor, Weapon",
+    "rules_text": "Bearer has +2 power.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "A shield wards off and a sword strikes down; \nboth indispensable to uphold a knight\u2019s oath."
+},
+{
+    "card_name": "Sylvan Splendor",
+    "rarity": "Elite",
+    "type_text": "An Elite Aura unites the forest folk",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "Whenever you cast a Beast or Faerie to an affected site, draw a spell. Dispel if an affected site is successfully attacked.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 2
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tactical Move",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Magic to reposition your troops",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "One at a time, each ally takes up to two steps.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tax Collector",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal demands his due",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Genesis \u2192 On your opponent's next turn, their spells cost (1) more.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Templar",
+    "rarity": "Elite",
+    "type_text": "Your Avatar upholds an oath to prevail",
+    "type": "Avatar",
+    "subtype": "",
+    "rules_text": "Tap \u2192 Play or draw a site.\n\nThe first Knight, Sir, or Dame you cast each turn costs (1) less.",
+    "cost": null,
+    "attack": 2,
+    "life": 20,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Thankless Squire",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal works harder than most",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Lance, Lance, Lance, Immobile",
+    "cost": 5,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Black Plague",
+    "rarity": "Unique",
+    "type_text": "A Unique Aura of insidious disease",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "At the end of your turn, the weakest minion occupying affected sites dies. If tied, choose one. Dispel if none die.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Faerie Queene",
+    "rarity": "Unique",
+    "type_text": "A Unique Faerie orchestrates her underlings",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Airborne, Spellcaster\n\nNearby allied Faeries take no damage from units with 4 or more power.",
+    "cost": 4,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Great Drowning of Men",
+    "rarity": "Unique",
+    "type_text": "A Unique Aura of inevitable erosion",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "At the start of your turn, destroy affected sites and flood the resulting Rubble. Submerge everything atop them and dispel The Great Drowning of Men.",
+    "cost": 7,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 4
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Great Famine",
+    "rarity": "Unique",
+    "type_text": "A Unique Aura runs the storehouse dry",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "At the end of your turn, the strongest minion occupying affected sites dies. If tied, choose one. Dispel if none die.",
+    "cost": 4,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Green Knight",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal taunts and retorts",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Whenever an enemy minion can attack The Green Knight, it must.\n\nDeathrite \u2192 Strike target nearby enemy.",
+    "cost": 6,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 3
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Lady of the Lake",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal guides others to glory",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Spellcaster, Submerge\n\nGenesis \u2192 You may summon a Mortal or artifact from your cemetery to Lady of the Lake's location. If you do, shuffle her into her owner's spellbook.",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 3
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Ninth Legion",
+    "rarity": "Unique",
+    "type_text": "A Unique formation of Spirits unsettled",
+    "type": "Minion",
+    "subtype": "Spirit",
+    "rules_text": "Voidwalk. Must be cast to a corner.\n\nDeathrite \u2192 Return to hand.",
+    "cost": 6,
+    "attack": 6,
+    "life": null,
+    "thresholds": {
+        "air": 3,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Round Table",
+    "rarity": "Unique",
+    "type_text": "Gather as equals at this Unique Monument",
+    "type": "Artifact",
+    "subtype": "Monument",
+    "rules_text": "Must be cast to your back row.\n\nWhenever you summon King Arthur, or a Knight, Sir, or Dame to The Round Table, draw a card.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "The Wild Hunt",
+    "rarity": "Elite",
+    "type_text": "Spirits and Faeries lead this Elite procession",
+    "type": "Minion",
+    "subtype": "Faerie, Spirit",
+    "rules_text": "Airborne\n\nOther nearby Spirits and Faeries have Charge.",
+    "cost": 6,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 3,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Thieving Magpie",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Beast collecting shinies",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Airborne\n\nMay pick up carried artifacts with cost (1) or less.",
+    "cost": 1,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Thundering Giant",
+    "rarity": "Elite",
+    "type_text": "An Elite Giant of rumbling impact",
+    "type": "Minion",
+    "subtype": "Giant",
+    "rules_text": "Charge\n\nOnce on your turn, Thundering Giant may teleport to another nearby location. Tap all other units there on arrival.",
+    "cost": 6,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tintagel",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of seaside sanctuary",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Only provides mana and threshold while in your back row.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tithe",
+    "rarity": "Unique",
+    "type_text": "Unique Magic collects more than its fair share",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Draw three sites.",
+    "cost": 1,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 3,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tooth Faeries",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Faeries extract payment",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "Airborne\n\nAt the start of your turn, tap target nearby enemy.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Tournament Grounds",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site to settle the score",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Anyone may cast Knights, Sirs, or Dames to this site and may do so for no threshold.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Town",
+    "rarity": "Exceptional",
+    "type_text": "A Site bursting with Exceptional talent",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Exceptional minions cost (1) less to cast to this site.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Treetop Hideout",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Site to stay unseen",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 You may give Stealth to a nearby allied minion.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Troll Bridge",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Site to traipse atop",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "The first time a lone enemy enters here each turn, strike it unless they discard a card.",
+    "cost": null,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Unseelie Court",
+    "rarity": "Elite",
+    "type_text": "A malevolent forum of the Faerie Elite",
+    "type": "Minion",
+    "subtype": "Faerie",
+    "rules_text": "At the start of your turn, players discard a spell for each Faerie in the realm.",
+    "cost": 6,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "From far and thence we give no thanks, only offense."
+},
+{
+    "card_name": "Valley of Delight",
+    "rarity": "Elite",
+    "type_text": "An Elite Site for the footloose and fancy-free",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Choose one: (A), (E), (F), (W). This site provides that permanently.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Valor",
+    "rarity": "Elite",
+    "type_text": "Elite Magic of fearless defense",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "May be cast when an ally defends a site or another unit. The ally gains +4 power this turn.",
+    "cost": 0,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Vanishment",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic leaves no trace",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Give all allied minions Stealth. Draw a spell.",
+    "cost": 3,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 2,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "\u201cHe is the marvellest knight that is now living, for he destroyeth many good knights, for he goeth invisible.\u201d \u2014 Malory, le Morte D\u2019Arthur"
+},
+{
+    "card_name": "Varmint Warrens",
+    "rarity": "Elite",
+    "type_text": "An Elite Site of subterranean safety",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Beasts here can't be targeted by enemies.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Vengeful Heir",
+    "rarity": "Elite",
+    "type_text": "An Elite Mortal out for blood",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "As an additional cost to cast this, you may banish a dead Knight, Sir, or Dame. If you do, Vengeful Heir is summoned as a copy of that minion.",
+    "cost": 3,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Verdant Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal swears an honest vow",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 1
+    },
+    "flavour_text": "Clad in nature\u2019s splendor, the knight journeyed onwards with the might and grace of chivalric conviction."
+},
+{
+    "card_name": "Vikings",
+    "rarity": "Ordinary",
+    "type_text": "Ordinary Mortals appear to sack and burn",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Tap \u2192 Deal 2 damage to each unit at target adjacent location.",
+    "cost": 5,
+    "attack": 4,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 0
+    },
+    "flavour_text": "\u201cPagans have desecrated God\u2019s sanctuary, shed the blood of saints around the altar, laid waste the house of our hope and trampled the bodies of saints like dung in the streets.\u201d \u2014Alcuin, 793AD"
+},
+{
+    "card_name": "Vivien the Enchantress",
+    "rarity": "Unique",
+    "type_text": "A Unique Mortal surpasses her mentors",
+    "type": "Minion",
+    "subtype": "Mortal",
+    "rules_text": "Vivien has the printed abilities of all Avatars and Spellcasters in the realm, wherever she is.",
+    "cost": 5,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 3,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Wall of Brambles",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Aura and barbed barricade",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "Conjure atop the border of an allied site.\n\nWhenever an enemy traverses this wall \non the ground, it takes 2 damage.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "War Horse",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional thoroughbred Beast",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Charge, May carry an ally.",
+    "cost": 2,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": "\u201cBretherne, ye ought to be ashamed to falle so off your horsis! What is a knyght but whan he is on horsebacke?\u201d"
+},
+{
+    "card_name": "Wedding Hall",
+    "rarity": "Elite",
+    "type_text": "An Elite Site of joyful union and eternal vows",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Provides no mana, but if Arthur and Guinevere start your turn here, you win.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Weightless Squire",
+    "rarity": "Ordinary",
+    "type_text": "An Ordinary Mortal carried by Faerie optimism",
+    "type": "Minion",
+    "subtype": "Faerie, Mortal",
+    "rules_text": "Airborne, Lance",
+    "cost": 3,
+    "attack": 1,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Whirlwind",
+    "rarity": "Exceptional",
+    "type_text": "Exceptional Magic of encircling winds",
+    "type": "Magic",
+    "subtype": "",
+    "rules_text": "Choose clockwise or counterclockwise. Each unit and artifact atop sites in a two-by-two area is pushed one step in that direction.",
+    "cost": 2,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "White Hart",
+    "rarity": "Unique",
+    "type_text": "A Unique Beast and quarry of kings",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Other minions and locations nearby can't be attacked.",
+    "cost": 3,
+    "attack": 2,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "White Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal defends the weak",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Costs (2) less to cast if you have less life than each opponent.",
+    "cost": 5,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Witch",
+    "rarity": "Unique",
+    "type_text": "Your Avatar's curses are inescapable",
+    "type": "Avatar",
+    "subtype": "",
+    "rules_text": "Tap \u2192 Play or draw a site.\n\nTap \u2192 Curse target Avatar, choose one: Their spells cost (1) more to cast on their next turn, they lose 2 life, or they have -3 power until your next turn.",
+    "cost": null,
+    "attack": 1,
+    "life": 20,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Wizard's Den",
+    "rarity": "Elite",
+    "type_text": "An Elite Site for undisturbed study",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "Genesis \u2192 Draw a spell. Discard a spell when this site is first attacked successfully.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Wolpertinger",
+    "rarity": "Elite",
+    "type_text": "An Elite Beast of tooth, claw, and horn",
+    "type": "Minion",
+    "subtype": "Beast",
+    "rules_text": "Has +1 power for each of your dead Beasts.",
+    "cost": 4,
+    "attack": 0,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Fur friends and family, we remember you."
+},
+{
+    "card_name": "Wormelow Tump",
+    "rarity": "Unique",
+    "type_text": "A Unique Site of a past not forgotten",
+    "type": "Site",
+    "subtype": "",
+    "rules_text": "(E)(E)(E) \u2013 Opponents can't affect cards in your cemetery.",
+    "cost": null,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Wyvern",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Beast, oft mistaken for a Dragon",
+    "type": "Minion",
+    "subtype": "Beast, Dragon",
+    "rules_text": "Airborne",
+    "cost": 6,
+    "attack": 5,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+    },
+    "flavour_text": "Godric braced himself, assured that dragon-fire \nwould give him a swift end. He was disappointed."
+},
+{
+    "card_name": "Year of the Blaze",
+    "rarity": "Unique",
+    "type_text": "A Unique Aura, hot pursu'd by fate",
+    "type": "Aura",
+    "subtype": "",
+    "rules_text": "At the start of your turn, destroy affected sites and everything here, including Year of the Blaze.",
+    "cost": 7,
+    "attack": null,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 4,
+        "water": 0
+    },
+    "flavour_text": ""
+},
+{
+    "card_name": "Yellow Knight",
+    "rarity": "Exceptional",
+    "type_text": "An Exceptional Mortal swears a noble vow",
+    "type": "Minion",
+    "subtype": "Knight, Mortal",
+    "rules_text": "Lance",
+    "cost": 3,
+    "attack": 3,
+    "life": null,
+    "thresholds": {
+        "air": 0,
+        "earth": 1,
+        "fire": 1,
+        "water": 0
+    },
+    "flavour_text": "Draped in golden regalia bedight with sunlit hues, the knight rode gallantly, the most chivalrous of champions."
+}
 ]

@@ -154,6 +154,7 @@ const cardKeywords = [
     "Adjacent",
     "Target",
     "Draw",
+    "Lance",
 ];
 
 const thresholdAsList = (thresholds: Thresholds): string[] => {

@@ -24,9 +24,6 @@ import {
 const isRarity = (object: any): object is Rarity => "rank" in object;
 
 const isThresholds = (object: any): object is Thresholds => {
-    console.log(`Checking is Thresholds for: `);
-    console.log(object);
-
     return "air" in object && "fire" in object;
 };
 
@@ -258,8 +255,6 @@ function App() {
     const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
     const [shared, setShared] = useState(false);
     const [previewedCard, setPreviewedCard] = useState<Card>(NONE_CARD);
-
-    console.log(targetCard);
 
     function RulesText() {
         const revealHint = () => {

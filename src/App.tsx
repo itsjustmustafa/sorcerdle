@@ -712,10 +712,10 @@ function App() {
                     >
                         How To Play
                     </a>
-                    <span id="coming-soon-message">
+                    {/* <span id="coming-soon-message">
                         <img src="https://i.imgur.com/j5AjtIL.png" />
                         Coming Soon
-                    </span>
+                    </span> */}
                 </span>
             </span>
             <div className="game">

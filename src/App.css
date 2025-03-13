@@ -65,6 +65,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
+
     /* MOBILE MODE */
     .table-container {
         overflow-x: scroll;
@@ -75,26 +76,33 @@
     .card-image-popup {
         display: none;
     }
+
     .guesses-table {
         font-size: 0.85em;
     }
+
     .card-image-popup img {
         width: 30em;
         margin-top: -30em;
     }
+
     .card-image-popup.site-img img {
         width: 25em;
         margin-top: -26em;
     }
+
     .input-container button {
         width: 80%;
     }
 }
+
 @media only screen and (min-width: 1100px) {
+
     /* DESKTOP MODE */
     .card-image-popup {
         display: block;
     }
+
     .card_image_mobile {
         display: none;
     }
@@ -113,24 +121,23 @@
         width: 35em;
         margin-top: -30.5em;
     }
+
     #root {
         margin: 275px auto;
     }
 }
 
 .rainbowText {
-    background-image: linear-gradient(
-        to right,
-        #e5e372,
-        #e59172,
-        #e5729f,
-        #db72e5,
-        #8e72e5,
-        #72ace5,
-        #72e5cf,
-        #72e57c,
-        #b0e572
-    );
+    background-image: linear-gradient(to right,
+            #e5e372,
+            #e59172,
+            #e5729f,
+            #db72e5,
+            #8e72e5,
+            #72ace5,
+            #72e5cf,
+            #72e57c,
+            #b0e572);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -173,6 +180,12 @@
 }
 
 .threslogo {
+    width: 2em;
+    -webkit-filter: drop-shadow(0px 0px 2px #000);
+    filter: drop-shadow(0px 0px 2px #000);
+}
+
+.setLogo {
     width: 2em;
     -webkit-filter: drop-shadow(0px 0px 2px #000);
     filter: drop-shadow(0px 0px 2px #000);

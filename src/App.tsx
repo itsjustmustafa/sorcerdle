@@ -5,6 +5,9 @@ import airThresLogoFile from "./data/airthres.png";
 import earthThresLogoFile from "./data/earththres.png";
 import fireThresLogoFile from "./data/firethres.png";
 import waterThresLogoFile from "./data/waterthres.png";
+import alphaLogoFile from "./data/alpha.png";
+import betaLogoFile from "./data/beta.png";
+import arthurialLegendsLogoFile from "./data/arthurian legends.png";
 import "./App.css";
 import Select from "react-select";
 import { Card, Thresholds, Guess, Rarity } from "./interfaces.tsx";
@@ -20,8 +23,12 @@ import {
 
 const isRarity = (object: any): object is Rarity => "rank" in object;
 
-const isThresholds = (object: any): object is Thresholds =>
-    "air" in object && "fire" in object;
+const isThresholds = (object: any): object is Thresholds => {
+    console.log(`Checking is Thresholds for: `);
+    console.log(object);
+
+    return "air" in object && "fire" in object;
+};
 
 const stringToRarity = (str: string): Rarity => {
     switch (str) {
@@ -72,15 +79,15 @@ const consolidateAlikeKeywords = (keywords: string[]): string[] => {
 };
 
 const NONE_CARD: Card = {
-    card_name: "",
+    name: "",
     rarity: "",
     type_text: "",
     type: "",
-    subtype: "",
+    subtypes: [],
     rules_text: "",
-    cost: 0,
-    attack: 0,
-    life: 0,
+    cost: -1,
+    attack: -1,
+    life: -1,
     thresholds: {
         air: 0,
         earth: 0,
@@ -88,30 +95,36 @@ const NONE_CARD: Card = {
         water: 0,
     },
     flavour_text: "",
+    defence: -1,
+    sets: [],
 };
 
 const cardsToArray = (card: Card): any[] => {
     return [
-        card.card_name,
+        card.name,
         card.cost,
         card.attack,
+        card.defence,
         stringToRarity(card.rarity),
         card.life,
-        card.subtype === "" ? [card.type] : [card.type, card.subtype],
+        [card.type, ...card.subtypes],
         getListOfKeywords(card),
         card.thresholds,
+        card.sets,
     ];
 };
 
 const attributeDisplayNames = [
     "Name",
     "Cost",
-    "Power",
+    "Attack",
+    "Defence",
     "Rarity",
     "Life",
     "Type(s)",
     "Keywords",
     "Threshold",
+    "Sets",
 ];
 
 const cardKeywords = [
@@ -160,67 +173,93 @@ const thresholdAsList = (thresholds: Thresholds): string[] => {
         );
 };
 
+const setToLogoMap = (
+    set_name: string,
+    index: number,
+    styling = {}
+): JSX.Element => {
+    let image_src = alphaLogoFile;
+
+    if (set_name == "Alpha") {
+        image_src = alphaLogoFile;
+    } else if (set_name == "Beta") {
+        image_src = betaLogoFile;
+    } else if (set_name == "Arthurian Legends") {
+        image_src = arthurialLegendsLogoFile;
+    } else {
+        return <></>;
+    }
+    return (
+        <img
+            key={index}
+            src={image_src}
+            className="setLogo"
+            style={styling}
+            alt={set_name}
+            title={set_name}
+        />
+    );
+};
+
 const thresCharToLogoMap = (
     char: string,
     index: number,
     styling = {}
 ): JSX.Element => {
+    let image_src = airThresLogoFile;
+    let element_name = "";
+
     switch (char) {
         case "A":
-            return (
-                <img
-                    key={index}
-                    src={airThresLogoFile}
-                    className="threslogo"
-                    style={styling}
-                />
-            );
-        case "E":
-            return (
-                <img
-                    key={index}
-                    src={earthThresLogoFile}
-                    className="threslogo"
-                    style={styling}
-                />
-            );
+            image_src = airThresLogoFile;
+            element_name = "Air";
+            break;
         case "F":
-            return (
-                <img
-                    key={index}
-                    src={fireThresLogoFile}
-                    className="threslogo"
-                    style={styling}
-                />
-            );
+            image_src = fireThresLogoFile;
+            element_name = "Fire";
+            break;
+        case "E":
+            image_src = earthThresLogoFile;
+            element_name = "Earth";
+            break;
         case "W":
-            return (
-                <img
-                    key={index}
-                    src={waterThresLogoFile}
-                    className="threslogo"
-                    style={styling}
-                />
-            );
+            image_src = waterThresLogoFile;
+            element_name = "Water";
+            break;
         default:
             return <></>;
     }
+
+    return (
+        <img
+            key={index}
+            src={image_src}
+            className="threslogo"
+            style={styling}
+            alt={element_name}
+            title={element_name}
+        />
+    );
 };
 
 function App() {
     const GUESSES_UNTIL_HINT = 7;
 
-    const [cardsData, setCardsData] = useState<Card[]>([]);
+    const [cardsData, setCardsData] = useState<Card[]>(cardsJson);
     const [guesses, setGuesses] = useState<Guess[]>([]);
     const [currentAnswer, setCurrentAnswer] = useState("");
     const [suggestions, setSuggestions] = useState<Card[]>([]);
-    const [targetCard, setTargetCard] = useState<Card>();
+    const [targetCard, setTargetCard] = useState<Card>(getDailyCard());
     const [gameWon, setGameWon] = useState(false);
     const [hintRevealed, setHintRevealed] = useState(false);
-    const [todayDate, setTodayDate] = useState("");
+    const [todayDate, setTodayDate] = useState<string>(
+        new Date().toDateString()
+    );
     const [showingSuggestionMenu, setShowingSuggestionMenu] = useState(false);
     const [shared, setShared] = useState(false);
     const [previewedCard, setPreviewedCard] = useState<Card>(NONE_CARD);
+
+    console.log(targetCard);
 
     function RulesText() {
         const revealHint = () => {
@@ -251,9 +290,7 @@ function App() {
     }
 
     function getCardByName(card_name: string): Card {
-        const foundCard = cardsJson.find(
-            (card) => card.card_name === card_name
-        );
+        const foundCard = cardsJson.find((card) => card.name === card_name);
         if (foundCard !== undefined) {
             return foundCard;
         }
@@ -268,7 +305,7 @@ function App() {
         const isAprilFools = month === "3" && date === "1";
         if (isAprilFools) {
             const craigCard = getCardByName("Craig Sumison");
-            if (craigCard.card_name !== "") {
+            if (craigCard.name !== "") {
                 return craigCard;
             }
         }
@@ -276,10 +313,10 @@ function App() {
         for (let i = 0; i < 10; i++) {
             const hashed_index =
                 simpleHash(
-                    `${year}/${month}/${date}${hashExtension}extrarandomtext`
+                    `${year}/${month}/${date}${hashExtension}new update`
                 ) % cardsJson.length;
             const todaysCard = cardsJson[hashed_index];
-            if (todaysCard.card_name === "Craig Sumison") {
+            if (todaysCard.name === "Craig Sumison") {
                 hashExtension += "!";
             } else {
                 return todaysCard;
@@ -292,17 +329,17 @@ function App() {
     }
 
     useEffect(() => {
-        setCardsData(cardsJson);
-        setTargetCard(getDailyCard());
-        setTodayDate(new Date().toDateString());
+        // setCardsData(cardsJson);
+        // setTargetCard();
+        // setTodayDate();
     }, []);
 
     useEffect(() => {}, [currentAnswer]);
 
     const handleGuessInputChange = (value: string) => {
-        if (!showingSuggestionMenu) {
-            return;
-        }
+        // if (!showingSuggestionMenu) {
+        //     return;
+        // }
 
         if (value !== "") {
             setCurrentAnswer(value);
@@ -311,10 +348,10 @@ function App() {
         if (value.length > 0) {
             const filteredSuggestions = cardsData
                 .map((card) => {
-                    if (startsWith(card.card_name, value)) {
+                    if (startsWith(card.name, value)) {
                         return { card: card, score: 2 };
                     }
-                    if (substring(card.card_name, value)) {
+                    if (substring(card.name, value)) {
                         return { card: card, score: 1 };
                     }
                     return { card: card, score: 0 };
@@ -324,7 +361,7 @@ function App() {
                         ? -1
                         : b.score > a.score
                         ? 1
-                        : b.card.card_name < a.card.card_name
+                        : b.card.name < a.card.name
                         ? 1
                         : -1
                 )
@@ -349,17 +386,13 @@ function App() {
 
         // try to find a card that matches what the user has submitted
         const guessedCard = cardsData.find((card) =>
-            compareStrings(card.card_name, currentAnswer)
+            compareStrings(card.name, currentAnswer)
         );
         if (guessedCard === undefined) {
             return;
         }
         // Check if you haven't already guessed the card
-        if (
-            !guesses.some(
-                (guess) => guess.card.card_name === guessedCard.card_name
-            )
-        ) {
+        if (!guesses.some((guess) => guess.card.name === guessedCard.name)) {
             const currentGuess: Guess = {
                 card: guessedCard,
                 resultTexts: [],
@@ -367,10 +400,10 @@ function App() {
             };
             if (targetCard !== undefined) {
                 // Its a new guess, so add it to the guesses list and preload the card image
-                preloadCardImage(guessedCard.card_name);
+                preloadCardImage(guessedCard.name);
                 setGuessResults(currentGuess, guessedCard, targetCard);
                 setGuesses([currentGuess, ...guesses]);
-                if (targetCard.card_name === guessedCard.card_name) {
+                if (targetCard.name === guessedCard.name) {
                     setGameWon(true);
                 }
             }
@@ -478,6 +511,12 @@ function App() {
                                                     0,
                                                     { width: "1em" }
                                                 );
+                                            case "Alpha":
+                                            case "Beta":
+                                            case "Arthurian Legends":
+                                                return setToLogoMap(elem, 0, {
+                                                    width: "2em",
+                                                });
                                             default:
                                                 return <>{elem}</>;
                                         }
@@ -579,14 +618,14 @@ function App() {
             if (targetCard.rules_text !== "") {
                 hintText = replaceAll(
                     targetCard.rules_text,
-                    targetCard.card_name,
-                    "■".repeat(targetCard.card_name.length)
+                    targetCard.name,
+                    "■".repeat(targetCard.name.length)
                 );
             } else if (targetCard.flavour_text !== "") {
                 hintText = replaceAll(
                     targetCard.flavour_text,
-                    targetCard.card_name,
-                    "■".repeat(targetCard.card_name.length)
+                    targetCard.name,
+                    "■".repeat(targetCard.name.length)
                 );
             } else {
                 hintText = targetCard.type_text;
@@ -686,8 +725,8 @@ function App() {
                         className="guess-input"
                         options={suggestions.map((suggestion) => {
                             return {
-                                value: suggestion.card_name,
-                                label: suggestion.card_name,
+                                value: suggestion.name,
+                                label: suggestion.name,
                             };
                         })}
                         onInputChange={handleGuessInputChange}
@@ -755,26 +794,23 @@ function App() {
                                                     className={`result-${textStylePair[1]}`}
                                                     onClick={() =>
                                                         setPreviewedCard(
-                                                            guess.card
-                                                                .card_name ===
-                                                                previewedCard.card_name
+                                                            guess.card.name ===
+                                                                previewedCard.name
                                                                 ? NONE_CARD
                                                                 : guess.card
                                                         )
                                                     }
                                                 >
                                                     <span className="card-name-container">
-                                                        {guess.card.card_name}
+                                                        {guess.card.name}
                                                         <br />
                                                         <span>
-                                                            {guess.card
-                                                                .card_name ===
-                                                                previewedCard.card_name && (
+                                                            {guess.card.name ===
+                                                                previewedCard.name && (
                                                                 <u>Hide</u>
                                                             )}
-                                                            {guess.card
-                                                                .card_name !==
-                                                                previewedCard.card_name && (
+                                                            {guess.card.name !==
+                                                                previewedCard.name && (
                                                                 <u>Show</u>
                                                             )}
                                                         </span>
@@ -788,15 +824,14 @@ function App() {
                                                                     : "")
                                                             }
                                                         >
-                                                            {guess.card
-                                                                .card_name ==
-                                                                previewedCard.card_name && (
+                                                            {guess.card.name ==
+                                                                previewedCard.name && (
                                                                 <img
                                                                     src={getCardImageUrl(
-                                                                        previewedCard.card_name
+                                                                        previewedCard.name
                                                                     )}
                                                                     alt={
-                                                                        previewedCard.card_name
+                                                                        previewedCard.name
                                                                     }
                                                                 />
                                                             )}
@@ -812,7 +847,7 @@ function App() {
                     </table>
                 </div>
                 <span className="card_image_mobile_modal">
-                    {previewedCard.card_name !== "" && (
+                    {previewedCard.name !== "" && (
                         <img
                             className={
                                 "card_image_mobile card-preview " +
@@ -820,8 +855,8 @@ function App() {
                                     ? "site-img"
                                     : "nonsite-img")
                             }
-                            src={getCardImageUrl(previewedCard.card_name)}
-                            alt={previewedCard.card_name}
+                            src={getCardImageUrl(previewedCard.name)}
+                            alt={previewedCard.name}
                             onClick={() => setPreviewedCard(NONE_CARD)}
                         />
                     )}

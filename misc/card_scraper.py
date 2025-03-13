@@ -9,12 +9,12 @@ import urllib
 
 card_names = []
 with open("sorcerycards.json", "r") as file:
-    card_names = [card["card_name"] for card in json.load(file)]
+    card_names = [card["name"] for card in json.load(file)]
 
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
-driver = webdriver.Chrome(options = chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 card_image_urls = []
 
 for card_name in card_names:
@@ -22,6 +22,8 @@ for card_name in card_names:
     url = f"https://fourcores.xyz/card/{encoded_card_name}"
     driver.get(url)
     try:
+
+        image_url = ""
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "chakra-image"))
         )
@@ -35,19 +37,21 @@ for card_name in card_names:
         for image in images:
             if image.tag_name == "img":
                 src = image.get_attribute("src")
-                if src.startswith("https://sorcery-api.s3.amazonaws.com"):
-                    card_image_urls.append({
-                        "name": card_name,
-                        "url": src
-                    })
+                if src.startswith("https://fourcores.xyz/.netlify/images"):
+                    image_url = src
                     break
-        print(f"Done for {card_name}")
+        if len(image_url) == 0:
+            print(f"Could not get {card_name}")
+            print(f"@ {url}")
+            break
+        card_image_urls.append({"name": card_name, "url": image_url})
+        print(f"Done for {card_name}:\t{image_url}")
     except Exception as e:
-        print("-----\n"*3)
+        print("-----\n" * 3)
         print(e)
         print(f"Error on {card_name} @ {url}")
         break
-        
+
 
 driver.quit()
 

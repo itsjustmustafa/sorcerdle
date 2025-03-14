@@ -8,6 +8,7 @@ import waterThresLogoFile from "./data/waterthres.png";
 import alphaLogoFile from "./data/alpha.png";
 import betaLogoFile from "./data/beta.png";
 import arthurialLegendsLogoFile from "./data/arthurian legends.png";
+import craigLogoFile from "./data/craig.png";
 import "./App.css";
 import Select from "react-select";
 import { Card, Thresholds, Guess, Rarity } from "./interfaces.tsx";
@@ -184,6 +185,8 @@ const setToLogoMap = (
         image_src = betaLogoFile;
     } else if (set_name == "Arthurian Legends") {
         image_src = arthurialLegendsLogoFile;
+    } else if (set_name == "Craig") {
+        image_src = craigLogoFile;
     } else {
         return <></>;
     }
@@ -510,6 +513,7 @@ function App() {
                                             case "Alpha":
                                             case "Beta":
                                             case "Arthurian Legends":
+                                            case "Craig":
                                                 return setToLogoMap(elem, 0, {
                                                     width: "2em",
                                                 });

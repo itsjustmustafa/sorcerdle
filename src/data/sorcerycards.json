@@ -15193,5 +15193,25 @@
             "Beta"
         ],
         "flavour_text": "How fair to greet, on misted morn A daint parade of dew-kissed bloom Now deep, inspire! A bliss reborn Of air faint lade with sweet perfume"
+    },
+    {
+        "name": "Craig Sumison",
+        "rarity": "Unique",
+        "type_text": "Principal/Director/Sales Representative",
+        "type": "Avatar",
+        "subtypes": [],
+        "rules_text": "Tap \u2192 Play or draw a site. Tap \u2192 Draw a site.",
+        "cost": -1,
+        "attack": 1,
+        "defence": 10,
+        "life": 71,
+        "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+        },
+        "sets": ["Craig"],
+        "flavour_text": "Principal at Raine & Horne - Roxby Downs (RLA 208715) 24 years experience"
     }
 ]

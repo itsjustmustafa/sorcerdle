@@ -15199,11 +15199,11 @@
         "rarity": "Unique",
         "type_text": "Principal/Director/Sales Representative",
         "type": "Avatar",
-        "subtypes": [],
+        "subtypes": ["Real Estate Agent"],
         "rules_text": "Tap \u2192 Play or draw a site. Tap \u2192 Draw a site.",
         "cost": -1,
         "attack": 1,
-        "defence": 10,
+        "defence": 1    ,
         "life": 71,
         "thresholds": {
             "air": 0,

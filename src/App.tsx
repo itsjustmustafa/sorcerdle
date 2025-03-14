@@ -615,7 +615,10 @@ function App() {
     const rulesTextHint = (): string => {
         if (targetCard) {
             let hintText;
-            if (targetCard.rules_text !== "") {
+            if (targetCard.name === "Craig Sumison") {
+                hintText =
+                    "■■■■■ ■■■■■■■ has worked in Real Estate for 18 years and has been the Principal / Director of Raine & Horne Roxby Downs since February 2008.";
+            } else if (targetCard.rules_text !== "") {
                 hintText = replaceAll(
                     targetCard.rules_text,
                     targetCard.name,

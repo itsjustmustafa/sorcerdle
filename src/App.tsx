@@ -659,10 +659,14 @@ function App() {
                     .join("");
             })
             .join("\n");
+        const guess_history = guesses
+            .toReversed()
+            .map((guess) => guess.card.name)
+            .join(" -> ");
         navigator.clipboard.writeText(
             `Sorcerdle - ${todayDate} (${guesses.length} Guesses${
                 hintRevealed ? " + Hint" : ""
-            })\n${link}\n${emojiMatrix}`
+            })\n${link}\n${emojiMatrix}\n||${guess_history}||`
         );
     };
     const winDisplay = (
